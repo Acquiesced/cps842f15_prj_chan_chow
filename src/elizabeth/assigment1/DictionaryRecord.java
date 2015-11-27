@@ -13,7 +13,11 @@ public class DictionaryRecord implements Serializable {
 	public DictionaryRecord() {
 		
 	}
-
+	
+	/**
+	 * Constructor for Dictionary Record used for to store document frequency
+	 * @param documentFrequency DocumentFrequency for the term related to the doc record
+	 */
 	public DictionaryRecord(double documentFrequency) {
 		this.documentFrequency = documentFrequency;
 	}
@@ -34,6 +38,10 @@ public class DictionaryRecord implements Serializable {
 		this.idf = idf;
 	}
 	
+	/**
+	 * This method returns a String containing the idf and documentfrequency that is formatted
+	 * @return String 
+	 */
 	@Override
 	public String toString() {
 		return "DictionaryRecord [idf=" + idf + ", documentFrequency=" + documentFrequency + "]";
