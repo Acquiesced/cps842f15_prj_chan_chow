@@ -31,6 +31,16 @@ public class Parse {
 		private static final char CITATIONLIST = 'X';
 	}
 
+	public boolean citationValidation(String inputLine) {
+		String[] citationInputArr = inputLine.split("\\s+");
+		if ((citationInputArr.length == 3) && (citationInputArr[1].equals("5"))) {
+			return true;
+		} else {
+			return false;
+		}
+
+	}
+
 	public void parseFile(HashMap<Integer, DocumentRecord> documents) {
 		DocumentRecord document = null;
 		String line = "";
@@ -39,7 +49,7 @@ public class Parse {
 		StringBuilder abstractText = new StringBuilder();
 		StringBuilder date = new StringBuilder();
 		StringBuilder citation = new StringBuilder();
-		
+
 		char state = 0;
 		try {
 			while ((line = reader.readLine()) != null) {
@@ -88,8 +98,10 @@ public class Parse {
 						break;
 					}
 					case Field.CITATIONLIST: {
-						citation.append(line).append("\n");
-						document.setCitationList(citation.toString().trim());
+						if (citationValidation(line) == true) {
+							citation.append(line).append("\n");
+							document.setCitationList(citation.toString().trim());
+						}
 						break;
 					}
 					}

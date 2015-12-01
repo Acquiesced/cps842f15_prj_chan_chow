@@ -42,10 +42,20 @@ public class Eval {
 		options.addOption("stopwords", false, "Enable stop word removal");
 		options.addOption("create", false, "Create index input files");
 		options.addOption("help", "Show this menu");
-		options.addOption(OptionBuilder.withLongOpt("idf").withDescription("Idf threshold").withType(Number.class)
-				.hasArg().withArgName("argname").create());
-		options.addOption(OptionBuilder.withLongOpt("maxresults").withDescription("Maximum number of entries to retrieve").withType(Number.class)
-				.hasArg().withArgName("argname").create());
+		OptionBuilder.withLongOpt("idf");
+		OptionBuilder.withDescription("Idf threshold");
+		OptionBuilder.withType(Number.class);
+		OptionBuilder
+				.hasArg();
+		OptionBuilder.withArgName("argname");
+		options.addOption(OptionBuilder.create());
+		OptionBuilder.withLongOpt("maxresults");
+		OptionBuilder.withDescription("Maximum number of entries to retrieve");
+		OptionBuilder.withType(Number.class);
+		OptionBuilder
+				.hasArg();
+		OptionBuilder.withArgName("argname");
+		options.addOption(OptionBuilder.create());
 		CommandLineParser parser = new DefaultParser();
 
 		try {
@@ -106,7 +116,7 @@ public class Eval {
 
 				Set<Integer> relevantDocIDs = entry.getValue();
 				int relevantDocCount = 0;
-				double qrelTotal = (double) relevantDocIDs.size();
+				double qrelTotal = relevantDocIDs.size();
 				
 				if (!resultSet.isEmpty()) {
 					precisionList = new ArrayList<Double>();

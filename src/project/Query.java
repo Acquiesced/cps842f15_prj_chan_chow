@@ -119,7 +119,7 @@ public class Query {
 
 		for (String word : uniqueWords) {
 			int freq = termFrequencies.get(word);
-			double weight = 1 + Math.log10((double) freq);
+			double weight = 1 + Math.log10(freq);
 			this.weights.put(word, 1 + Math.log10(weight));
 			this.normalizedLength += weight * weight;
 		}

@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 import java.util.TreeMap;
-import java.util.TreeSet;
-
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.DefaultParser;
@@ -47,11 +45,21 @@ public class Test {
 		options.addOption("stem", false, "Enable stemming");
 		options.addOption("stopwords", false, "Enable stop word removal");
 		options.addOption("create", false, "Create index input files");
-		options.addOption(OptionBuilder.withLongOpt("idf").withDescription("Idf threshold").withType(Number.class)
-				.hasArg().withArgName("argname").create());
+		OptionBuilder.withLongOpt("idf");
+		OptionBuilder.withDescription("Idf threshold");
+		OptionBuilder.withType(Number.class);
+		OptionBuilder
+				.hasArg();
+		OptionBuilder.withArgName("argname");
+		options.addOption(OptionBuilder.create());
+		OptionBuilder.withLongOpt("maxresults");
+		OptionBuilder.withDescription("Maximum number of entries to retrieve");
+		OptionBuilder
+				.withType(Number.class);
+		OptionBuilder.hasArg();
+		OptionBuilder.withArgName("argname");
 		options.addOption(
-				OptionBuilder.withLongOpt("maxresults").withDescription("Maximum number of entries to retrieve")
-						.withType(Number.class).hasArg().withArgName("argname").create());
+				OptionBuilder.create());
 		options.addOption("help", "Show this menu");
 
 		CommandLineParser parser = new DefaultParser();

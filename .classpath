@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path=""/>
-	<classpathentry kind="lib" path="C:/Workspace/cps842f15_prj_chan_chow/lib/commons-cli-1.3.1.jar"/>
-	<classpathentry kind="lib" path="C:/Workspace/cps842f15_prj_chan_chow/lib/commons-cli-1.3.1-javadoc.jar"/>
-	<classpathentry kind="lib" path="C:/Workspace/cps842f15_prj_chan_chow/lib/fst-2.40.jar"/>
-	<classpathentry kind="lib" path="C:/Workspace/cps842f15_prj_chan_chow/lib/fst-2.40-onejar.jar"/>
-	<classpathentry kind="lib" path="C:/Workspace/cps842f15_prj_chan_chow/lib/jackson-core-2.5.3.jar"/>
-	<classpathentry kind="lib" path="C:/Workspace/cps842f15_prj_chan_chow/lib/javassist-3.19.0-GA.jar"/>
-	<classpathentry kind="lib" path="C:/Workspace/cps842f15_prj_chan_chow/lib/objenesis-2.1.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="Z:/workspace/cps842f15_prj_chan_chow/lib/commons-cli-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="Z:/workspace/cps842f15_prj_chan_chow/lib/commons-cli-1.3.1-javadoc.jar"/>
+	<classpathentry exported="true" kind="lib" path="Z:/workspace/cps842f15_prj_chan_chow/lib/fst-2.40.jar"/>
+	<classpathentry exported="true" kind="lib" path="Z:/workspace/cps842f15_prj_chan_chow/lib/fst-2.40-onejar.jar"/>
+	<classpathentry exported="true" kind="lib" path="Z:/workspace/cps842f15_prj_chan_chow/lib/jackson-core-2.5.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="Z:/workspace/cps842f15_prj_chan_chow/lib/javassist-3.19.0-GA.jar"/>
+	<classpathentry exported="true" kind="lib" path="Z:/workspace/cps842f15_prj_chan_chow/lib/objenesis-2.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

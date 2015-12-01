@@ -91,7 +91,8 @@ class Stemmer
     * or a reference to the internal buffer can be retrieved by getResultBuffer
     * and getResultLength (which is generally more efficient.)
     */
-   public String toString() { return new String(b,0,i_end); }
+   @Override
+public String toString() { return new String(b,0,i_end); }
 
    /**
     * Returns the length of the word resulting from the stemming process.

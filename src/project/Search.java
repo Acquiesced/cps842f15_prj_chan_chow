@@ -131,7 +131,7 @@ public class Search {
 					double idf = Math.log10(collectionSize / docFreq);
 					int freq = postingsList.get(term).get(d.getId()).getTermFrequency(term);
 
-					double termFreq = 1 + Math.log10((double) freq);
+					double termFreq = 1 + Math.log10(freq);
 					weight = termFreq * idf;
 					numerator += weight * query.getWeight(term);
 					normalizedLength += weight * weight;
