@@ -62,7 +62,7 @@ public class DocumentRecord implements Serializable, Comparable<DocumentRecord> 
 	}
 	
 	public String getCitationList() {
-		return authorList;
+		return citationList;
 	}
 
 	public void setCitationList(String citationList) {

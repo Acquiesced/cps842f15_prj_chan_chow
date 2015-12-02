@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeMap;
 
@@ -30,7 +31,9 @@ public class Eval {
 	static HashMap<Integer, DocumentRecord> documents = new HashMap<Integer, DocumentRecord>();
 	static TreeMap<String, DictionaryRecord> dictionary = new TreeMap<String, DictionaryRecord>();
 	static TreeMap<String, TreeMap<Integer, Posting>> postingsList = new TreeMap<String, TreeMap<Integer, Posting>>();
+	static ArrayList<CitationRecord> citationList = new ArrayList<CitationRecord>();
 
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		Invert inverter = new Invert(COLLECTIONSFILE);
 		Options options = new Options();
@@ -45,17 +48,16 @@ public class Eval {
 		OptionBuilder.withLongOpt("idf");
 		OptionBuilder.withDescription("Idf threshold");
 		OptionBuilder.withType(Number.class);
-		OptionBuilder
-				.hasArg();
+		OptionBuilder.hasArg();
 		OptionBuilder.withArgName("argname");
 		options.addOption(OptionBuilder.create());
 		OptionBuilder.withLongOpt("maxresults");
 		OptionBuilder.withDescription("Maximum number of entries to retrieve");
 		OptionBuilder.withType(Number.class);
-		OptionBuilder
-				.hasArg();
+		OptionBuilder.hasArg();
 		OptionBuilder.withArgName("argname");
 		options.addOption(OptionBuilder.create());
+
 		CommandLineParser parser = new DefaultParser();
 
 		try {
@@ -90,7 +92,17 @@ public class Eval {
 		documents = inverter.getDocuments();
 		dictionary = inverter.getDictionary();
 		postingsList = inverter.getPostingsList();
-		Search search = new Search(documents, dictionary, postingsList, useStemming, useStopWords, idfThreshold, maxResults);
+		PageRank PageRanker = new PageRank(documents);
+		PageRanker.citationListInit();
+		PageRanker.printCitation();
+		//Debug Purposes
+		Scanner debugWait = new Scanner(System.in);
+		debugWait.hasNext();
+		debugWait.close();
+		
+		
+		Search search = new Search(documents, dictionary, postingsList, useStemming, useStopWords, idfThreshold,
+				maxResults);
 
 		File eval = new File(EVALFILE);
 		FileWriter writer = null;
@@ -117,7 +129,7 @@ public class Eval {
 				Set<Integer> relevantDocIDs = entry.getValue();
 				int relevantDocCount = 0;
 				double qrelTotal = relevantDocIDs.size();
-				
+
 				if (!resultSet.isEmpty()) {
 					precisionList = new ArrayList<Double>();
 					for (DocumentRecord d : resultSet) {
