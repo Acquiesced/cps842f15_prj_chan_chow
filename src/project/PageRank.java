@@ -26,7 +26,7 @@ public class PageRank {
 				.entrySet()) {
 			// System.out.println(docEntry.getValue().getCitationList());
 			String[] recordCitationArr = docEntry.getValue().getCitationList()
-					.split("h\n");
+					.split("\n");
 			for (String citation : recordCitationArr) {
 				String[] citationStringArr = citation.split("\\s+");
 				Integer outLinkDocumentID = Integer
@@ -57,6 +57,7 @@ public class PageRank {
 
 	private double[][] probabilityMatrixInit(double[][] aMatrix) {
 		int rowLinkCount = 0;
+		int rowCount = 0;
 		int matrixSize = sortedDocumentRecordList.lastKey();
 
 		for (double[] aMatrixRow : aMatrix) {
@@ -77,8 +78,10 @@ public class PageRank {
 					aMatrixRow[i] = 1 / matrixSize;
 				}
 			}
+			rowCount++;
 			rowLinkCount = 0;
 		}
+
 		return aMatrix;
 	}
 
@@ -87,14 +90,25 @@ public class PageRank {
 		double[][] pVector = new double[1][matrixSize];
 		Arrays.fill(pVector[0], 0);
 		pVector[0][0] = 1.0;
-		for (int i = 0; i < 10; i++) {
+		int surferIterationValue = 1;
+		for (int i = 0; i < surferIterationValue; i++) {
 			pVector = multiplyMatrix(pVector, pMatrix);
 		}
 		double[][] pageRank = pVector;
-		for(int i =0; i<pageRank[0].length; i++){
-			System.out.printf("%.10f ",pageRank[0][i]);
+		for (int i = 0; i < pageRank[0].length; i++) {
+			System.out.print("pvec ");
+			System.out.print("DocID #" + (i + 1) + ": ");
+			System.out.printf("%.20f ", pageRank[0][i]);
 
 		}
+		System.out.println("\n");
+		for (int i = 0; i < pMatrix[0].length; i++) {
+			System.out.print("pmat ");
+			System.out.print("DocID #" + (i + 1) + ": ");
+			System.out.printf("%.20f ", pMatrix[0][0]);
+		}
+		
+		
 		return pageRank;
 	}
 
