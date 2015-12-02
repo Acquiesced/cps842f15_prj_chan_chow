@@ -1,6 +1,7 @@
 package src.project;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map.Entry;
 
@@ -25,11 +26,25 @@ public class PageRank {
 				citationList.add(new CitationRecord(outLinkDocumentID, documentID));
 			}
 		}
+		adjacencyMatrixInit(citationList);
+	}
+
+	private void adjacencyMatrixInit(ArrayList<CitationRecord> citationList) {
+		int matrixBounds = documentRecordList.size();
+		int[][] aMatrix = new int[matrixBounds][matrixBounds];
+		for (int[] row : aMatrix) {
+			Arrays.fill(row, 0);
+		}
+
+		for (CitationRecord citRecord : citationList) {
+			aMatrix[citRecord.getDocumentID() - 1][citRecord.getOutLinkDocumentID() - 1] = 1;
+			//System.out.println(citRecord.getDocumentID() + " " + citRecord.getOutLinkDocumentID() + " " +  aMatrix[citRecord.getDocumentID() - 1][citRecord.getOutLinkDocumentID() - 1] );
+		}
 	}
 
 	public void printCitation() {
-		for (CitationRecord citEntry : citationList) {
-			System.out.println(citEntry.getOutLinkDocumentID() + " " + citEntry.getDocumentID());
+		for (CitationRecord citRecord : citationList) {
+			System.out.println(citRecord.getOutLinkDocumentID() + " " + citRecord.getDocumentID());
 		}
 	}
 }

@@ -94,7 +94,7 @@ public class Eval {
 		postingsList = inverter.getPostingsList();
 		PageRank PageRanker = new PageRank(documents);
 		PageRanker.citationListInit();
-		PageRanker.printCitation();
+		//PageRanker.printCitation();
 		//Debug Purposes
 		Scanner debugWait = new Scanner(System.in);
 		debugWait.hasNext();
