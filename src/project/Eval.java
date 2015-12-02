@@ -20,7 +20,7 @@ import org.apache.commons.cli.ParseException;
 
 public class Eval {
 
-	private static final String COLLECTIONSFILE = "cacm/cacm.all";
+	private static final String COLLECTIONSFILE = "cacm/cacm.small";
 	private static final String QUERYFILE = "cacm/query.text";
 	private static final String QUERYJUDGMENTFILE = "cacm/qrels.text";
 	private static final String EVALFILE = "eval.txt";

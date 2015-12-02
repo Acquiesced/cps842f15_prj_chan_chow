@@ -12,9 +12,9 @@ public class PageRank {
 	final static double DAMPINGFACTOR = 0.85;
 	HashMap<Integer, DocumentRecord> documentRecordList;
 	TreeMap<Integer, DocumentRecord> sortedDocumentRecordList;
-	//ArrayList<CitationRecord> citationList = new ArrayList<CitationRecord>();
+	// ArrayList<CitationRecord> citationList = new ArrayList<CitationRecord>();
 	Set<CitationRecord> citationList = new HashSet<CitationRecord>();
-	
+
 	public PageRank(HashMap<Integer, DocumentRecord> documentRecordList) {
 		this.documentRecordList = documentRecordList;
 		this.sortedDocumentRecordList = new TreeMap<Integer, DocumentRecord>(documentRecordList);
@@ -32,20 +32,69 @@ public class PageRank {
 				citationList.add(new CitationRecord(outLinkDocumentID, documentID));
 			}
 		}
-		adjacencyMatrixInit(citationList);
+		double[][] pMatrix = probabilityMatrixInit(adjacencyMatrixInit(citationList));
 	}
 
-	private void adjacencyMatrixInit(Set<CitationRecord> citationList) {
+	private double[][] adjacencyMatrixInit(Set<CitationRecord> citationList) {
 		int matrixBounds = sortedDocumentRecordList.lastKey();
-		int[][] aMatrix = new int[matrixBounds][matrixBounds];
-		for (int[] row : aMatrix) {
+		double[][] aMatrix = new double[matrixBounds][matrixBounds];
+		for (double[] row : aMatrix) {
 			Arrays.fill(row, 0);
 		}
 
 		for (CitationRecord citRecord : citationList) {
 			aMatrix[citRecord.getDocumentID() - 1][citRecord.getOutLinkDocumentID() - 1] = 1;
-			System.out.println(citRecord.getDocumentID() + " " + citRecord.getOutLinkDocumentID() + " " +  aMatrix[citRecord.getDocumentID() - 1][citRecord.getOutLinkDocumentID() - 1] );
+			System.out.println(citRecord.getDocumentID() + " " + citRecord.getOutLinkDocumentID() + " "
+					+ aMatrix[citRecord.getDocumentID() - 1][citRecord.getOutLinkDocumentID() - 1]);
 		}
+		return aMatrix;
+	}
+
+	private double[][] probabilityMatrixInit(double[][] aMatrix) {
+		int rowLinkCount = 0;
+		int matrixSize = sortedDocumentRecordList.lastKey();
+
+		for (double[] aMatrixRow : aMatrix) {
+			for (int i = 0; i < aMatrixRow.length; i++) {
+				if (aMatrixRow[i] == 1.0) {
+					rowLinkCount++;
+				}
+			}
+			if (rowLinkCount > 0) {
+				for (int i = 0; i < aMatrixRow.length; i++) {
+					aMatrixRow[i] = aMatrixRow[i] / rowLinkCount;
+					aMatrixRow[i] *= (1 - DAMPINGFACTOR);
+					aMatrixRow[i] += (DAMPINGFACTOR / matrixSize);
+				}
+			} else {
+				// teleport
+				for (int i = 0; i < aMatrixRow.length; i++) {
+					aMatrixRow[i] = 1 / matrixSize;
+				}
+			}
+			rowLinkCount = 0;
+		}
+		return aMatrix;
+	}
+
+	private void randomSurfer(double[][] pMatrix) {
+
+	}
+
+	private double[][] multiplyMatrix(double[][] pVector, double[][] pMatrix) {
+		int pVectorRows = pVector.length;
+	    int pVectorcols = pVector[0].length;
+	    int pMatrixrows = pMatrix.length;
+	    int pMatrixcols = pMatrix[0].length;
+	         double[][] result = new double[pVectorRows][pMatrixcols];
+	         for (int i=0; i< pVectorRows; i++){
+	            for (int j=0; j< pMatrixcols; j++){
+	               for (int k=0; k< pVectorcols; k++){
+	                  result[i][j] += pVector[i][k] * pMatrix[k][j];
+	                  return result;
+	               }
+	            }
+	         }
 	}
 
 	public void printCitation() {
