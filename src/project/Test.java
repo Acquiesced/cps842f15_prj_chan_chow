@@ -62,7 +62,18 @@ public class Test {
 		options.addOption(OptionBuilder.create());
 		options.addOption("help", "Show this menu");
 		OptionBuilder.withLongOpt("w1");
+		OptionBuilder.withDescription("w1 value");
+		OptionBuilder.withType(Number.class);
+		OptionBuilder.hasArg();
+		OptionBuilder.withArgName("argname");
+		options.addOption(OptionBuilder.create());
 		OptionBuilder.withLongOpt("w2");
+		OptionBuilder.withDescription("w2 value");
+		OptionBuilder.withType(Number.class);
+		OptionBuilder.hasArg();
+		OptionBuilder.withArgName("argname");
+		options.addOption(OptionBuilder.create());
+		
 
 		CommandLineParser parser = new DefaultParser();
 		try {

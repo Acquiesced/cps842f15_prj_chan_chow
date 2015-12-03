@@ -261,13 +261,13 @@ public class Invert {
 		}
 		
 		// Set the PageRank for each document
-		PageRank PageRanker = new PageRank(documents);
-		double[] pageRanks = PageRanker.citationListInit();
+		PageRank pageRanker = new PageRank(documents);
+		double[] pageRanks = pageRanker.citationListInit();
+		pageRanks = pageRanker.normalizePageRank(pageRanks);
 		for (int i = 0; i < pageRanks.length; i++) {
 			documents.get(i+1).setPageRank(pageRanks[i]);
-			//System.out.println("Id: " + documents.get(i+1).getId() + ", PageRank: " + documents.get(i+1).getPageRank());
 		}
-
+		
 		getDictionarySize();
 
 		writeToFile(this.dirName + DICTIONARYFILE, dictionary);

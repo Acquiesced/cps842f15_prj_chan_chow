@@ -118,7 +118,6 @@ public class DocumentRecord implements Serializable, Comparable<DocumentRecord> 
 	public String displayDocumentInfo() {
 		StringBuilder resultString = new StringBuilder();
 		resultString.append("ID: " + id + "\n" + "Title: " + title + "\n" + "Authors: " + authorList + "\n"
-				+ "Citations:" + citationList + "\n" 
 				+ "Cosine Similarity Score: " + cosineSimilarity + "\n"
 				+ "PageRank Score: " + pageRank + "\n"
 				+ "Combined Score: " + combinedScore + "\n");

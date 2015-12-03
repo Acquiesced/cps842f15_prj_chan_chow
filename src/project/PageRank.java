@@ -17,26 +17,24 @@ public class PageRank {
 	TreeMap<Integer, DocumentRecord> sortedDocumentRecordList;
 	Set<CitationRecord> citationList = new HashSet<CitationRecord>();
 
+	private double minPRScore;
+	private double maxPRScore;
+
 	public PageRank(HashMap<Integer, DocumentRecord> documentRecordList) {
 		this.documentRecordList = documentRecordList;
-		this.sortedDocumentRecordList = new TreeMap<Integer, DocumentRecord>(
-				documentRecordList);
+		this.sortedDocumentRecordList = new TreeMap<Integer, DocumentRecord>(documentRecordList);
 	}
 
 	public double[] citationListInit() {
-		for (Entry<Integer, DocumentRecord> docEntry : documentRecordList
-				.entrySet()) {
+		for (Entry<Integer, DocumentRecord> docEntry : documentRecordList.entrySet()) {
 			// System.out.println(docEntry.getValue().getCitationList());
-			String[] recordCitationArr = docEntry.getValue().getCitationList()
-					.split("\n");
+			String[] recordCitationArr = docEntry.getValue().getCitationList().split("\n");
 			for (String citation : recordCitationArr) {
 				String[] citationStringArr = citation.split("\\s+");
-				Integer inLinkDocumentID = Integer
-						.valueOf(citationStringArr[0]);
+				Integer inLinkDocumentID = Integer.valueOf(citationStringArr[0]);
 				Integer documentID = Integer.valueOf(citationStringArr[2]);
 				// System.out.println(inLinkDocumentID + " " + documentID);
-				citationList.add(new CitationRecord(inLinkDocumentID,
-						documentID));
+				citationList.add(new CitationRecord(inLinkDocumentID, documentID));
 			}
 		}
 		double[][] pMatrix = probabilityMatrixInit(adjacencyMatrixInit(citationList));
@@ -89,31 +87,63 @@ public class PageRank {
 		double[][] pVector = new double[1][matrixSize];
 		Arrays.fill(pVector[0], 0);
 		pVector[0][0] = 1.0;
-		int surferIterationValue = 10;
+		int surferIterationValue = 20;
 		for (int i = 0; i < surferIterationValue; i++) {
 			pVector = multiplyMatrix(pVector, pMatrix);
 		}
-		
-		double[][] pageRank = pVector;
-		
-		printPageRankToFile(pageRank);
-		
-		/*		for (int i = 0; i < pageRank[0].length; i++) {
-			System.out.print("pvec ");
-			System.out.print("DocID #" + (i + 1) + ": ");
-			System.out.printf("%.20f ", pageRank[0][i]);
 
-		}
-	
-		System.out.println("\n");
-		for (int i = 0; i < pMatrix[0].length; i++) {
-			System.out.print("pmat ");
-			System.out.print("DocID #" + (i + 1) + ": ");
-			System.out.printf("%.20f ", pMatrix[0][0]);
-		}  	*/
+		double[][] pageRank = pVector;
+
+		printPageRankToFile(pageRank);
+
+		// for (int i = 0; i < pageRank[0].length; i++) {
+		// System.out.print("pvec ");
+		// System.out.print("DocID #" + (i + 1) + ": ");
+		// System.out.printf("%.20f ", pageRank[0][i]);
+		//
+		// }
+		//
+		// System.out.println("\n");
+		// for (int i = 0; i < pMatrix[0].length; i++) {
+		// System.out.print("pmat ");
+		// System.out.print("DocID #" + (i + 1) + ": ");
+		// System.out.printf("%.20f ", pMatrix[0][0]);
+		// }
+		this.setMax(pageRank[0]);
+		this.setMin(pageRank[0]);
+		
 		return pageRank;
 	}
+
+	// Method for getting the maximum value
+	private void setMax(double[] inputArray) {
+		double maxValue = inputArray[0];
+		for (int i = 1; i < inputArray.length; i++) {
+			if (inputArray[i] > maxValue) {
+				maxValue = inputArray[i];
+			}
+		}
+		this.maxPRScore = maxValue;
+	}
+
+	// Method for getting the minimum value
+	private void setMin(double[] inputArray) {
+		double minValue = inputArray[0];
+		for (int i = 1; i < inputArray.length; i++) {
+			if (inputArray[i] < minValue) {
+				minValue = inputArray[i];
+			}
+		}
+		this.minPRScore = minValue;
+	}
 	
+	public double[] normalizePageRank(double[] pageRank) { 
+		for (int i = 0; i < pageRank.length; i++) {
+			pageRank[i] = ((pageRank[i] - this.minPRScore) / (this.maxPRScore - this.minPRScore));
+		}
+		return pageRank;
+	}
+
 	private void printPageRankToFile(double[][] pageRank) {
 		FileWriter writer = null;
 		File pageRankFile = new File(PAGERANKFILE);
@@ -157,8 +187,7 @@ public class PageRank {
 
 	public void printCitation() {
 		for (CitationRecord citRecord : citationList) {
-			System.out.println(citRecord.getInLinkDocumentID() + " "
-					+ citRecord.getDocumentID());
+			System.out.println(citRecord.getInLinkDocumentID() + " " + citRecord.getDocumentID());
 		}
 	}
 }

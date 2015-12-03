@@ -59,6 +59,18 @@ public class Eval {
 		OptionBuilder.hasArg();
 		OptionBuilder.withArgName("argname");
 		options.addOption(OptionBuilder.create());
+		OptionBuilder.withLongOpt("w1");
+		OptionBuilder.withDescription("w1 value");
+		OptionBuilder.withType(Number.class);
+		OptionBuilder.hasArg();
+		OptionBuilder.withArgName("argname");
+		options.addOption(OptionBuilder.create());
+		OptionBuilder.withLongOpt("w2");
+		OptionBuilder.withDescription("w2 value");
+		OptionBuilder.withType(Number.class);
+		OptionBuilder.hasArg();
+		OptionBuilder.withArgName("argname");
+		options.addOption(OptionBuilder.create());
 
 		CommandLineParser parser = new DefaultParser();
 
@@ -127,23 +139,28 @@ public class Eval {
 				
 				resultSet = search.getResultSubList(query.getQueryText());
 				
+				System.out.println("All results retrieved: ");
+				writer.write("\nAll results retrieved: ");
 				for (DocumentRecord d: resultSet) {
 					System.out.println(d.displayDocumentScoreInfo());
 					writer.write("\n");
 					writer.write(d.displayDocumentScoreInfo());
 				}
 
-				Set<Integer> relevantDocIDs = entry.getValue();
+				Set<Integer> relevantDocIDs = qrels.get(query.getId());
 				int relevantDocCount = 0;
 				double qrelTotal = relevantDocIDs.size();
 
 				if (!resultSet.isEmpty()) {
 					precisionList = new ArrayList<Double>();
-					for (DocumentRecord d : resultSet) {
+					for (int i = 0; i < resultSet.size(); i++) {
+						DocumentRecord d = resultSet.get(i);
 						if (relevantDocIDs.contains(d.getId())) {
 							relevantDocCount++;
+							System.out.println("Matching document with id#: " + d.getId() + " found.");
+							writer.write("\nMatching document with id#: " + d.getId() + " found.");
 						}
-						precision = relevantDocCount / qrelTotal;
+						precision = relevantDocCount / (i + 1.0);
 						precisionList.add(precision);
 					}
 				} else {
@@ -164,12 +181,12 @@ public class Eval {
 				RPrecision = relevantDocCount / qrelTotal;
 				RPrecisionList.add(RPrecision);
 
-				System.out.println("Number of Documents Retrieved: " + relevantDocCount);
+				System.out.println("Number of Expected CACM Matched Documents Retrieved: " + relevantDocCount);
 				System.out.println("MAP: " + MAP);
 				System.out.println("R-Precision: " + RPrecision);
 				System.out.println("------------------------------------------");
 				writer.write("\n");
-				writer.write("Number of Documents Retrieved: " + relevantDocCount);
+				writer.write("Number of Expected CACM Matched Documents Retrieved: " + relevantDocCount);
 				writer.write("\n");
 				writer.write("MAP: " + MAP);
 				writer.write("\n");

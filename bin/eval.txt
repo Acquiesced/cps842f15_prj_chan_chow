@@ -1,16 +1,200 @@
 Query #1: What articles exist which deal with TSS (Time Sharing System), an
 operating system for IBM computers?
-Number of Documents Retrieved: 2
-MAP: 0.10666666666666667
-R-Precision: 0.4
+All results retrieved: 
+ID: 1751
+Cosine Similarity Score: 0.01916273259512885
+PageRank Score: 0.597202424640702
+Combined Score: 0.19257464020880077
+ID: 1471
+Cosine Similarity Score: 0.06607001327346808
+PageRank Score: 0.42201690972755607
+Combined Score: 0.17285408220969445
+ID: 1749
+Cosine Similarity Score: 0.04453578416454864
+PageRank Score: 0.4712840339963992
+Combined Score: 0.1725602591141038
+ID: 195
+Cosine Similarity Score: 0.2004819367048856
+PageRank Score: 0.06986495726133114
+Combined Score: 0.16129684287181925
+ID: 1069
+Cosine Similarity Score: 0.16582397717023853
+PageRank Score: 0.11697839938125115
+Combined Score: 0.1511703038335423
+ID: 2796
+Cosine Similarity Score: 0.1641109928110351
+PageRank Score: 0.09087365733305222
+Combined Score: 0.14213979216764022
+ID: 2046
+Cosine Similarity Score: 0.015117543506622227
+PageRank Score: 0.4320828179000148
+Combined Score: 0.14020712582463998
+ID: 1834
+Cosine Similarity Score: 0.026454056451175798
+PageRank Score: 0.4047569769666973
+Combined Score: 0.13994493260583224
+ID: 731
+Cosine Similarity Score: 0.03912539406320821
+PageRank Score: 0.3734319565679024
+Combined Score: 0.13941736281461647
+ID: 1626
+Cosine Similarity Score: 0.07024926701704202
+PageRank Score: 0.29422307963801375
+Combined Score: 0.13744141080333355
+ID: 1410
+Cosine Similarity Score: 0.13455056427942352
+PageRank Score: 0.13761128963816044
+Combined Score: 0.1354687818870446
+ID: 1106
+Cosine Similarity Score: 0.1626977432743111
+PageRank Score: 0.06986495726133056
+Combined Score: 0.13484790747041692
+ID: 866
+Cosine Similarity Score: 0.15627653712073244
+PageRank Score: 0.07397475098490773
+Combined Score: 0.13158600127998502
+ID: 1746
+Cosine Similarity Score: 0.09465648106901511
+PageRank Score: 0.21318269699864356
+Combined Score: 0.13021434584790365
+ID: 98
+Cosine Similarity Score: 0.12514786689759488
+PageRank Score: 0.14041354763297068
+Combined Score: 0.12972757111820762
+Matching document with id#: 1410 found.
+Number of Expected CACM Matched Documents Retrieved: 1
+MAP: 0.02595071595071595
+R-Precision: 0.2
 ------------------------------------------
 Query #2: I am interested in articles written either by Prieve or Udo Pooch
-Number of Documents Retrieved: 0
+All results retrieved: 
+ID: 210
+Cosine Similarity Score: 0.13792819365571962
+PageRank Score: 0.45519946252160987
+Combined Score: 0.23310957431548668
+ID: 1749
+Cosine Similarity Score: 0.025592789557925984
+PageRank Score: 0.4712840339963992
+Combined Score: 0.15930016288946794
+ID: 2046
+Cosine Similarity Score: 0.0139558048662703
+PageRank Score: 0.4320828179000148
+Combined Score: 0.13939390877639365
+ID: 1491
+Cosine Similarity Score: 0.03882173204889221
+PageRank Score: 0.36613172989737025
+Combined Score: 0.13701473140343562
+ID: 204
+Cosine Similarity Score: 0.14456922376099593
+PageRank Score: 0.10837631333812685
+Combined Score: 0.1337113506341352
+ID: 1834
+Cosine Similarity Score: 0.012437545725365484
+PageRank Score: 0.4047569769666973
+Combined Score: 0.13013337509776504
+ID: 1728
+Cosine Similarity Score: 0.05055098249460236
+PageRank Score: 0.264184725806045
+Combined Score: 0.11464110548803516
+ID: 1786
+Cosine Similarity Score: 0.02408644151512631
+PageRank Score: 0.3010111405555122
+Combined Score: 0.10716385122724208
+ID: 171
+Cosine Similarity Score: 0.1218871901225993
+PageRank Score: 0.06986495726133131
+Combined Score: 0.1062805202642189
+ID: 1184
+Cosine Similarity Score: 0.030451230807071253
+PageRank Score: 0.2804371292944197
+Combined Score: 0.10544700035327578
+ID: 209
+Cosine Similarity Score: 0.04353604746969025
+PageRank Score: 0.23835878474368896
+Combined Score: 0.10198286865188987
+ID: 597
+Cosine Similarity Score: 0.11525955763605578
+PageRank Score: 0.06986495726132874
+Combined Score: 0.10164117752363766
+ID: 1674
+Cosine Similarity Score: 0.088876231898926
+PageRank Score: 0.12570272505138122
+Combined Score: 0.09992417984466256
+ID: 1977
+Cosine Similarity Score: 0.09380544243809115
+PageRank Score: 0.10837631333813072
+Combined Score: 0.09817670370810302
+ID: 616
+Cosine Similarity Score: 0.05341333946557632
+PageRank Score: 0.20090323491729212
+Combined Score: 0.09766030810109105
+Number of Expected CACM Matched Documents Retrieved: 0
 MAP: 0.0
 R-Precision: 0.0
 ------------------------------------------
 Query #3: Intermediate languages used in construction of multi-targeted compilers; TCOLL
-Number of Documents Retrieved: 0
+All results retrieved: 
+ID: 1751
+Cosine Similarity Score: 0.023385008370102628
+PageRank Score: 0.597202424640702
+Combined Score: 0.19553023325128244
+ID: 799
+Cosine Similarity Score: 0.11290478854640142
+PageRank Score: 0.33102565300859055
+Combined Score: 0.17834104788505817
+ID: 1313
+Cosine Similarity Score: 0.18962065794636537
+PageRank Score: 0.13337491289675055
+Combined Score: 0.17274693443148093
+ID: 929
+Cosine Similarity Score: 0.20832362148215744
+PageRank Score: 0.019867758144082814
+Combined Score: 0.15178686248073503
+ID: 51
+Cosine Similarity Score: 0.16712710206959785
+PageRank Score: 0.10122237537185153
+Combined Score: 0.14735568406027394
+ID: 1138
+Cosine Similarity Score: 0.16812669677557437
+PageRank Score: 0.07227412399928451
+Combined Score: 0.1393709249426874
+ID: 1785
+Cosine Similarity Score: 0.07826656258184633
+PageRank Score: 0.28190936061538197
+Combined Score: 0.13935940199190702
+ID: 1834
+Cosine Similarity Score: 0.02481333031252875
+PageRank Score: 0.4047569769666973
+Combined Score: 0.1387964243087793
+ID: 731
+Cosine Similarity Score: 0.03706768222634633
+PageRank Score: 0.3734319565679024
+Combined Score: 0.13797696452881314
+ID: 2551
+Cosine Similarity Score: 0.1471595232860069
+PageRank Score: 0.1083763133381266
+Combined Score: 0.13552456030164278
+ID: 77
+Cosine Similarity Score: 0.12986088810876018
+PageRank Score: 0.1479116944377824
+Combined Score: 0.13527613000746683
+ID: 2066
+Cosine Similarity Score: 0.18385949684070613
+PageRank Score: 0.019867758144084466
+Combined Score: 0.1346619752317196
+ID: 1491
+Cosine Similarity Score: 0.03531524542792127
+PageRank Score: 0.36613172989737025
+Combined Score: 0.13456019076875597
+ID: 651
+Cosine Similarity Score: 0.15630652263995595
+PageRank Score: 0.06986495726132834
+Combined Score: 0.13037405302636765
+ID: 1466
+Cosine Similarity Score: 0.1314613424600577
+PageRank Score: 0.08917983058663667
+Combined Score: 0.11877688889803138
+Number of Expected CACM Matched Documents Retrieved: 0
 MAP: 0.0
 R-Precision: 0.0
 ------------------------------------------
@@ -19,161 +203,1859 @@ possibly, but not exclusively, in a distributed environment.  I would
 rather see descriptions of complete mechanisms, with or without implementations,
 as opposed to theoretical work on the abstract problem.  Remote procedure
 calls and message-passing are examples of my interests.
-Number of Documents Retrieved: 3
-MAP: 0.17222222222222222
-R-Precision: 0.25
+All results retrieved: 
+ID: 196
+Cosine Similarity Score: 0.023279126007196952
+PageRank Score: 1.0
+Combined Score: 0.31629538820503783
+ID: 1751
+Cosine Similarity Score: 0.030589605877647842
+PageRank Score: 0.597202424640702
+Combined Score: 0.20057345150656408
+ID: 1749
+Cosine Similarity Score: 0.052484520408484336
+PageRank Score: 0.4712840339963992
+Combined Score: 0.1781243744848588
+ID: 210
+Cosine Similarity Score: 0.05286248055667529
+PageRank Score: 0.45519946252160987
+Combined Score: 0.17356357514615564
+ID: 2046
+Cosine Similarity Score: 0.037534468344723085
+PageRank Score: 0.4320828179000148
+Combined Score: 0.15589897321131058
+ID: 1834
+Cosine Similarity Score: 0.04229539189944902
+PageRank Score: 0.4047569769666973
+Combined Score: 0.1510338674196235
+ID: 1491
+Cosine Similarity Score: 0.05065314993240654
+PageRank Score: 0.36613172989737025
+Combined Score: 0.14529672392189563
+ID: 1626
+Cosine Similarity Score: 0.07723563273161395
+PageRank Score: 0.29422307963801375
+Combined Score: 0.14233186680353388
+ID: 1471
+Cosine Similarity Score: 0.02186256261885922
+PageRank Score: 0.42201690972755607
+Combined Score: 0.14190886675146827
+ID: 1786
+Cosine Similarity Score: 0.06066886549497523
+PageRank Score: 0.3010111405555122
+Combined Score: 0.13277154801313631
+ID: 731
+Cosine Similarity Score: 0.026097684837616094
+PageRank Score: 0.3734319565679024
+Combined Score: 0.130297966356702
+ID: 1728
+Cosine Similarity Score: 0.07272929415901278
+PageRank Score: 0.264184725806045
+Combined Score: 0.13016592365312246
+ID: 2848
+Cosine Similarity Score: 0.14128955128170287
+PageRank Score: 0.0698649572613257
+Combined Score: 0.11986217307558972
+ID: 3043
+Cosine Similarity Score: 0.1614256306187829
+PageRank Score: 0.019867758144081083
+Combined Score: 0.11895826887637234
+ID: 2905
+Cosine Similarity Score: 0.11078624103911137
+PageRank Score: 0.1251029146498051
+Combined Score: 0.11508124312231949
+Matching document with id#: 1749 found.
+Matching document with id#: 3043 found.
+Number of Expected CACM Matched Documents Retrieved: 2
+MAP: 0.1304216154216154
+R-Precision: 0.16666666666666666
 ------------------------------------------
 Query #5: I'd like papers on design and implementation of editing interfaces,
 window-managers, command interpreters, etc.  The essential issues are
 human interface design, with views on improvements to user efficiency,
 effectiveness and satisfaction.
-Number of Documents Retrieved: 3
-MAP: 0.175
-R-Precision: 0.375
+All results retrieved: 
+ID: 196
+Cosine Similarity Score: 0.032024813473639155
+PageRank Score: 1.0
+Combined Score: 0.3224173694315474
+ID: 1751
+Cosine Similarity Score: 0.015664386201963636
+PageRank Score: 0.597202424640702
+Combined Score: 0.19012579773358512
+ID: 1749
+Cosine Similarity Score: 0.05857357891095351
+PageRank Score: 0.4712840339963992
+Combined Score: 0.18238671543658722
+ID: 1471
+Cosine Similarity Score: 0.04095368708657665
+PageRank Score: 0.42201690972755607
+Combined Score: 0.15527265387887046
+ID: 1491
+Cosine Similarity Score: 0.0498772347596929
+PageRank Score: 0.36613172989737025
+Combined Score: 0.14475358330099608
+ID: 2046
+Cosine Similarity Score: 0.020855208008211792
+PageRank Score: 0.4320828179000148
+Combined Score: 0.14422349097575268
+ID: 799
+Cosine Similarity Score: 0.047337938776821076
+PageRank Score: 0.33102565300859055
+Combined Score: 0.13244425304635193
+ID: 731
+Cosine Similarity Score: 0.020440371311133534
+PageRank Score: 0.3734319565679024
+Combined Score: 0.12633784688816418
+ID: 1834
+Cosine Similarity Score: 0.006539385629936834
+PageRank Score: 0.4047569769666973
+Combined Score: 0.12600466303096497
+ID: 2960
+Cosine Similarity Score: 0.14242165374350943
+PageRank Score: 0.08455485597102935
+Combined Score: 0.1250616144117654
+ID: 1502
+Cosine Similarity Score: 0.09400330192944371
+PageRank Score: 0.18885742016603105
+Combined Score: 0.12245953740041991
+ID: 1746
+Cosine Similarity Score: 0.07852255771369099
+PageRank Score: 0.21318269699864356
+Combined Score: 0.11892059949917676
+ID: 1829
+Cosine Similarity Score: 0.12200594054693342
+PageRank Score: 0.08837041407745681
+Combined Score: 0.11191528260609043
+ID: 2138
+Cosine Similarity Score: 0.06580031100480274
+PageRank Score: 0.2168625959411948
+Combined Score: 0.11111899648572035
+ID: 2629
+Cosine Similarity Score: 0.09667254935721115
+PageRank Score: 0.14286937630070048
+Combined Score: 0.11053159744025795
+Matching document with id#: 1502 found.
+Number of Expected CACM Matched Documents Retrieved: 1
+MAP: 0.02595071595071595
+R-Precision: 0.125
 ------------------------------------------
 Query #6: Interested in articles on robotics, motion planning particularly the
 geometric and combinatorial aspects.  We are not interested in the
 dynamics of arm motion.
-Number of Documents Retrieved: 1
-MAP: 0.1111111111111111
-R-Precision: 0.3333333333333333
+All results retrieved: 
+ID: 196
+Cosine Similarity Score: 0.035772813878276924
+PageRank Score: 1.0
+Combined Score: 0.32504096971479385
+ID: 1751
+Cosine Similarity Score: 0.009980226769284518
+PageRank Score: 0.597202424640702
+Combined Score: 0.18614688613070976
+ID: 2046
+Cosine Similarity Score: 0.05186932273997809
+PageRank Score: 0.4320828179000148
+Combined Score: 0.1659333712879891
+ID: 731
+Cosine Similarity Score: 0.05857375920453646
+PageRank Score: 0.3734319565679024
+Combined Score: 0.15303121841354622
+ID: 1749
+Cosine Similarity Score: 0.013764745807044116
+PageRank Score: 0.4712840339963992
+Combined Score: 0.15102053226385062
+ID: 1471
+Cosine Similarity Score: 0.011508266566803848
+PageRank Score: 0.42201690972755607
+Combined Score: 0.1346608595150295
+ID: 1834
+Cosine Similarity Score: 0.00813955434368202
+PageRank Score: 0.4047569769666973
+Combined Score: 0.12712478113058662
+ID: 2502
+Cosine Similarity Score: 0.13437008765398142
+PageRank Score: 0.06986495726133139
+Combined Score: 0.11501854853618641
+ID: 1184
+Cosine Similarity Score: 0.04338651831345219
+PageRank Score: 0.2804371292944197
+Combined Score: 0.11450170160774244
+ID: 1491
+Cosine Similarity Score: 0.006298965809718347
+PageRank Score: 0.36613172989737025
+Combined Score: 0.11424879503601391
+ID: 799
+Cosine Similarity Score: 0.020938166764213357
+PageRank Score: 0.33102565300859055
+Combined Score: 0.11396441263752652
+ID: 1009
+Cosine Similarity Score: 0.12889364489483515
+PageRank Score: 0.06986495726132957
+Combined Score: 0.11118503860478346
+ID: 987
+Cosine Similarity Score: 0.02771179767740163
+PageRank Score: 0.30194296836638046
+Combined Score: 0.10998114888409527
+ID: 1728
+Cosine Similarity Score: 0.04263197630808632
+PageRank Score: 0.264184725806045
+Combined Score: 0.10909780115747393
+ID: 2671
+Cosine Similarity Score: 0.12070852075056561
+PageRank Score: 0.06986495726132859
+Combined Score: 0.1054554517037945
+Number of Expected CACM Matched Documents Retrieved: 0
+MAP: 0.0
+R-Precision: 0.0
 ------------------------------------------
 Query #7: I am interested in distributed algorithms - concurrent programs in
 which processes communicate and synchronize by using message passing.
 Areas of particular interest include fault-tolerance and techniques
 for understanding the correctness of these algorithms.
-Number of Documents Retrieved: 4
-MAP: 0.11904761904761901
-R-Precision: 0.14285714285714285
+All results retrieved: 
+ID: 1749
+Cosine Similarity Score: 0.10314196628980936
+PageRank Score: 0.4712840339963992
+Combined Score: 0.2135845866017863
+ID: 210
+Cosine Similarity Score: 0.09024947730733483
+PageRank Score: 0.45519946252160987
+Combined Score: 0.19973447287161733
+ID: 3043
+Cosine Similarity Score: 0.25781063509147917
+PageRank Score: 0.019867758144081083
+Combined Score: 0.18642777200725974
+ID: 270
+Cosine Similarity Score: 0.19112753914609903
+PageRank Score: 0.11747013413592108
+Combined Score: 0.16903031764304563
+ID: 1834
+Cosine Similarity Score: 0.06252192694914593
+PageRank Score: 0.4047569769666973
+Combined Score: 0.16519244195441135
+ID: 1471
+Cosine Similarity Score: 0.04132725210037032
+PageRank Score: 0.42201690972755607
+Combined Score: 0.15553414938852603
+ID: 2046
+Cosine Similarity Score: 0.025233842814797142
+PageRank Score: 0.4320828179000148
+Combined Score: 0.14728853534036243
+ID: 1626
+Cosine Similarity Score: 0.08018677875339109
+PageRank Score: 0.29422307963801375
+Combined Score: 0.14439766901877787
+ID: 1728
+Cosine Similarity Score: 0.08403367687156173
+PageRank Score: 0.264184725806045
+Combined Score: 0.13807899155190673
+ID: 1491
+Cosine Similarity Score: 0.034620505962754476
+PageRank Score: 0.36613172989737025
+Combined Score: 0.1340738731431392
+ID: 731
+Cosine Similarity Score: 0.030876544604677897
+PageRank Score: 0.3734319565679024
+Combined Score: 0.13364316819364525
+ID: 2912
+Cosine Similarity Score: 0.1690715488443547
+PageRank Score: 0.03800023116732638
+Combined Score: 0.12975015354124622
+ID: 1785
+Cosine Similarity Score: 0.060067601445580966
+PageRank Score: 0.28190936061538197
+Combined Score: 0.12662012919652127
+ID: 616
+Cosine Similarity Score: 0.0810779685941513
+PageRank Score: 0.20090323491729212
+Combined Score: 0.11702554849109353
+ID: 1198
+Cosine Similarity Score: 0.07661312369406084
+PageRank Score: 0.21042275073959218
+Combined Score: 0.11675601180772024
+Matching document with id#: 3043 found.
+Matching document with id#: 2912 found.
+Matching document with id#: 1198 found.
+Number of Expected CACM Matched Documents Retrieved: 3
+MAP: 0.14554982054982055
+R-Precision: 0.10714285714285714
 ------------------------------------------
 Query #8: Addressing schemes for resources in networks; resource addressing in
 network operating systems
-Number of Documents Retrieved: 0
+All results retrieved: 
+ID: 1751
+Cosine Similarity Score: 0.07807452871115855
+PageRank Score: 0.597202424640702
+Combined Score: 0.23381289749002157
+ID: 1461
+Cosine Similarity Score: 0.24240024945857339
+PageRank Score: 0.0698649572613342
+Combined Score: 0.19063966179940162
+ID: 2046
+Cosine Similarity Score: 0.045206837510919765
+PageRank Score: 0.4320828179000148
+Combined Score: 0.16126963162764826
+ID: 757
+Cosine Similarity Score: 0.17773684965663186
+PageRank Score: 0.10837631333812775
+Combined Score: 0.15692868876108063
+ID: 2371
+Cosine Similarity Score: 0.17414995927911486
+PageRank Score: 0.1126899285910889
+Combined Score: 0.15571195007270705
+ID: 3
+Cosine Similarity Score: 0.18733750281957737
+PageRank Score: 0.06986495726133064
+Combined Score: 0.15209573915210334
+ID: 8
+Cosine Similarity Score: 0.1820097800317502
+PageRank Score: 0.06986495726133064
+Combined Score: 0.1483663332006243
+ID: 1685
+Cosine Similarity Score: 0.17008881572607137
+PageRank Score: 0.09486355681995609
+Combined Score: 0.14752123805423678
+ID: 820
+Cosine Similarity Score: 0.17709011743452416
+PageRank Score: 0.06986495726132784
+Combined Score: 0.14492256938256526
+ID: 1877
+Cosine Similarity Score: 0.1328957922099245
+PageRank Score: 0.16986116873813936
+Combined Score: 0.14398540516838895
+ID: 1471
+Cosine Similarity Score: 0.024691475816321303
+PageRank Score: 0.42201690972755607
+Combined Score: 0.14388910598969173
+ID: 987
+Cosine Similarity Score: 0.06768965814347655
+PageRank Score: 0.30194296836638046
+Combined Score: 0.1379656512103477
+ID: 2951
+Cosine Similarity Score: 0.18238454256712092
+PageRank Score: 0.03135360118452884
+Combined Score: 0.13707526015234328
+ID: 2830
+Cosine Similarity Score: 0.15520999893975249
+PageRank Score: 0.0698649572613261
+Combined Score: 0.12960648643622458
+ID: 1611
+Cosine Similarity Score: 0.1758210917925601
+PageRank Score: 0.019867758144084466
+Combined Score: 0.1290350916980174
+Number of Expected CACM Matched Documents Retrieved: 0
 MAP: 0.0
 R-Precision: 0.0
 ------------------------------------------
 Query #9: Security considerations in local networks, network operating systems,
 and distributed systems.
-Number of Documents Retrieved: 3
-MAP: 0.14814814814814817
-R-Precision: 0.3333333333333333
+All results retrieved: 
+ID: 1461
+Cosine Similarity Score: 0.25338959036618397
+PageRank Score: 0.0698649572613342
+Combined Score: 0.19833220043472904
+ID: 1751
+Cosine Similarity Score: 0.023860235699276266
+PageRank Score: 0.597202424640702
+Combined Score: 0.19586289238170398
+ID: 2578
+Cosine Similarity Score: 0.20859854896265043
+PageRank Score: 0.06986495726133064
+Combined Score: 0.16697847145225447
+ID: 2046
+Cosine Similarity Score: 0.04704735777318335
+PageRank Score: 0.4320828179000148
+Combined Score: 0.16255799581123276
+ID: 2371
+Cosine Similarity Score: 0.1785719029598018
+PageRank Score: 0.1126899285910889
+Combined Score: 0.15880731064918793
+ID: 757
+Cosine Similarity Score: 0.17773684965663186
+PageRank Score: 0.10837631333812775
+Combined Score: 0.15692868876108063
+ID: 1685
+Cosine Similarity Score: 0.17008881572607137
+PageRank Score: 0.09486355681995609
+Combined Score: 0.14752123805423678
+ID: 1471
+Cosine Similarity Score: 0.027513398154351363
+PageRank Score: 0.42201690972755607
+Combined Score: 0.14586445162631276
+ID: 820
+Cosine Similarity Score: 0.17709011743452416
+PageRank Score: 0.06986495726132784
+Combined Score: 0.14492256938256526
+ID: 987
+Cosine Similarity Score: 0.07542572705201996
+PageRank Score: 0.30194296836638046
+Combined Score: 0.1433808994463281
+ID: 2849
+Cosine Similarity Score: 0.16606338496269862
+PageRank Score: 0.08024124071807141
+Combined Score: 0.14031674168931044
+ID: 3068
+Cosine Similarity Score: 0.18446401636657805
+PageRank Score: 0.029173806154954757
+Combined Score: 0.13787695330309105
+ID: 3137
+Cosine Similarity Score: 0.1649454935415294
+PageRank Score: 0.06986495726132397
+Combined Score: 0.13642133265746775
+ID: 25
+Cosine Similarity Score: 0.15925878956318282
+PageRank Score: 0.06986495726133073
+Combined Score: 0.1324406398726272
+ID: 2454
+Cosine Similarity Score: 0.12310727431295046
+PageRank Score: 0.144091945402668
+Combined Score: 0.1294026756398657
+Matching document with id#: 3068 found.
+Number of Expected CACM Matched Documents Retrieved: 1
+MAP: 0.019890109890109888
+R-Precision: 0.1111111111111111
 ------------------------------------------
 Query #10: Parallel languages; languages for parallel computation
-Number of Documents Retrieved: 3
-MAP: 0.07809523809523809
-R-Precision: 0.08571428571428572
+All results retrieved: 
+ID: 1795
+Cosine Similarity Score: 0.40568413200054837
+PageRank Score: 0.0698649572613342
+Combined Score: 0.30493837957878406
+ID: 210
+Cosine Similarity Score: 0.14423288374753523
+PageRank Score: 0.45519946252160987
+Combined Score: 0.2375228573797576
+ID: 392
+Cosine Similarity Score: 0.2882172146052625
+PageRank Score: 0.0698649572613304
+Combined Score: 0.22271153740208288
+ID: 34
+Cosine Similarity Score: 0.255747123521915
+PageRank Score: 0.06986495726133073
+Combined Score: 0.1999824736437397
+ID: 141
+Cosine Similarity Score: 0.23897565601758594
+PageRank Score: 0.06986495726133114
+Combined Score: 0.1882424463907095
+ID: 1138
+Cosine Similarity Score: 0.2366902418501261
+PageRank Score: 0.07227412399928451
+Combined Score: 0.1873654064948736
+ID: 532
+Cosine Similarity Score: 0.16227498568237117
+PageRank Score: 0.23973057636464398
+Combined Score: 0.185511662887053
+ID: 651
+Cosine Similarity Score: 0.22004969678187503
+PageRank Score: 0.06986495726132834
+Combined Score: 0.17499427492571099
+ID: 1471
+Cosine Similarity Score: 0.06746892208338383
+PageRank Score: 0.42201690972755607
+Combined Score: 0.1738333183766355
+ID: 35
+Cosine Similarity Score: 0.1839081823529131
+PageRank Score: 0.09486355681995517
+Combined Score: 0.15719479469302572
+ID: 1466
+Cosine Similarity Score: 0.185072433691767
+PageRank Score: 0.08917983058663667
+Combined Score: 0.1563046527602279
+ID: 119
+Cosine Similarity Score: 0.19291873381369684
+PageRank Score: 0.06986495726133106
+Combined Score: 0.1560026008479871
+ID: 1142
+Cosine Similarity Score: 0.2038627797930614
+PageRank Score: 0.03135360118453073
+Combined Score: 0.15211002621050218
+ID: 731
+Cosine Similarity Score: 0.05218420892839528
+PageRank Score: 0.3734319565679024
+Combined Score: 0.14855853322024742
+ID: 463
+Cosine Similarity Score: 0.18343808585932841
+PageRank Score: 0.056084558885826405
+Combined Score: 0.14523202776727778
+Matching document with id#: 1795 found.
+Matching document with id#: 392 found.
+Matching document with id#: 141 found.
+Matching document with id#: 1471 found.
+Number of Expected CACM Matched Documents Retrieved: 4
+MAP: 0.46478169978169975
+R-Precision: 0.11428571428571428
 ------------------------------------------
 Query #11: SETL, Very High Level Languages
-Number of Documents Retrieved: 3
-MAP: 0.10877192982456142
-R-Precision: 0.15789473684210525
+All results retrieved: 
+ID: 1903
+Cosine Similarity Score: 0.28814039499630695
+PageRank Score: 0.09689047029768255
+Combined Score: 0.2307654175867196
+ID: 1872
+Cosine Similarity Score: 0.25218795978345404
+PageRank Score: 0.09689047029768255
+Combined Score: 0.20559871293772258
+ID: 2699
+Cosine Similarity Score: 0.24395490099783754
+PageRank Score: 0.06986495726132842
+Combined Score: 0.19172791787688478
+ID: 731
+Cosine Similarity Score: 0.09488600494732126
+PageRank Score: 0.3734319565679024
+Combined Score: 0.1784497904334956
+ID: 3171
+Cosine Similarity Score: 0.2065665174619138
+PageRank Score: 0.06986495726132397
+Combined Score: 0.16555604940173682
+ID: 1138
+Cosine Similarity Score: 0.19893019035865897
+PageRank Score: 0.07227412399928451
+Combined Score: 0.16093337045084663
+ID: 1923
+Cosine Similarity Score: 0.19949447651837235
+PageRank Score: 0.0698649572613342
+Combined Score: 0.1606056207412609
+ID: 795
+Cosine Similarity Score: 0.19728448227371856
+PageRank Score: 0.04526991648489358
+Combined Score: 0.15168011253707103
+ID: 651
+Cosine Similarity Score: 0.18494437171136915
+PageRank Score: 0.06986495726132834
+Combined Score: 0.15042054737635688
+ID: 2906
+Cosine Similarity Score: 0.190928814167619
+PageRank Score: 0.031353601184529414
+Combined Score: 0.14305625027269214
+ID: 3148
+Cosine Similarity Score: 0.19654845947382427
+PageRank Score: 0.015276709858617774
+Combined Score: 0.14216693458926233
+ID: 1491
+Cosine Similarity Score: 0.04178556190226524
+PageRank Score: 0.36613172989737025
+Combined Score: 0.13908941230079674
+ID: 1466
+Cosine Similarity Score: 0.1555471580774165
+PageRank Score: 0.08917983058663667
+Combined Score: 0.13563695983018256
+ID: 1860
+Cosine Similarity Score: 0.16188227681813463
+PageRank Score: 0.07194952664720483
+Combined Score: 0.1349024517668557
+ID: 2717
+Cosine Similarity Score: 0.18226426391514808
+PageRank Score: 0.019867758144084466
+Combined Score: 0.13354531218382898
+Matching document with id#: 2699 found.
+Matching document with id#: 1923 found.
+Matching document with id#: 2906 found.
+Matching document with id#: 1491 found.
+Number of Expected CACM Matched Documents Retrieved: 4
+MAP: 0.2316046916046916
+R-Precision: 0.21052631578947367
 ------------------------------------------
 Query #12: portable operating systems
-Number of Documents Retrieved: 2
-MAP: 0.19999999999999998
-R-Precision: 0.4
+All results retrieved: 
+ID: 1461
+Cosine Similarity Score: 0.41261903358344343
+PageRank Score: 0.0698649572613342
+Combined Score: 0.30979281068681064
+ID: 1751
+Cosine Similarity Score: 0.036449681700670505
+PageRank Score: 0.597202424640702
+Combined Score: 0.20467550458267994
+ID: 25
+Cosine Similarity Score: 0.24328897085405385
+PageRank Score: 0.06986495726133073
+Combined Score: 0.1912617667762369
+ID: 987
+Cosine Similarity Score: 0.11522282418908256
+PageRank Score: 0.30194296836638046
+Combined Score: 0.1712388674422719
+ID: 3127
+Cosine Similarity Score: 0.2341305166194445
+PageRank Score: 0.019867758144081083
+Combined Score: 0.16985168907683548
+ID: 1069
+Cosine Similarity Score: 0.18836854882573892
+PageRank Score: 0.11697839938125115
+Combined Score: 0.16695150399239256
+ID: 18
+Cosine Similarity Score: 0.19743712926520265
+PageRank Score: 0.06986495726133064
+Combined Score: 0.15916547766404104
+ID: 2796
+Cosine Similarity Score: 0.18593002466758293
+PageRank Score: 0.09087365733305222
+Combined Score: 0.15741311446722372
+ID: 652
+Cosine Similarity Score: 0.18641273196447167
+PageRank Score: 0.08959935825189164
+Combined Score: 0.15736871985069764
+ID: 1471
+Cosine Similarity Score: 0.042030372954796134
+PageRank Score: 0.42201690972755607
+Combined Score: 0.1560263339866241
+ID: 2046
+Cosine Similarity Score: 0.027413140330360783
+PageRank Score: 0.4320828179000148
+Combined Score: 0.14881404360125697
+ID: 238
+Cosine Similarity Score: 0.1533460146494826
+PageRank Score: 0.13540182637447926
+Combined Score: 0.1479627581669816
+ID: 2138
+Cosine Similarity Score: 0.11800948303319429
+PageRank Score: 0.2168625959411948
+Combined Score: 0.14766541690559443
+ID: 1728
+Cosine Similarity Score: 0.09573314254536756
+PageRank Score: 0.264184725806045
+Combined Score: 0.1462686175235708
+ID: 651
+Cosine Similarity Score: 0.17235031179424903
+PageRank Score: 0.06986495726132834
+Combined Score: 0.1416047054343728
+Matching document with id#: 3127 found.
+Number of Expected CACM Matched Documents Retrieved: 1
+MAP: 0.08232637732637732
+R-Precision: 0.2
 ------------------------------------------
 Query #13: code optimization for space efficiency
-Number of Documents Retrieved: 2
-MAP: 0.1272727272727273
+All results retrieved: 
+ID: 195
+Cosine Similarity Score: 0.30762210058894657
+PageRank Score: 0.06986495726133114
+Combined Score: 0.23629495759066194
+ID: 1947
+Cosine Similarity Score: 0.19756834475809346
+PageRank Score: 0.1056719424265782
+Combined Score: 0.16999942405863888
+ID: 797
+Cosine Similarity Score: 0.2077292579336149
+PageRank Score: 0.08031858992596602
+Combined Score: 0.16950605753132023
+ID: 230
+Cosine Similarity Score: 0.1893579401889878
+PageRank Score: 0.10837631333812717
+Combined Score: 0.16506345213372958
+ID: 164
+Cosine Similarity Score: 0.21927789832268102
+PageRank Score: 0.03135360118453189
+Combined Score: 0.16290060918123625
+ID: 1795
+Cosine Similarity Score: 0.19250010426587175
+PageRank Score: 0.0698649572613342
+Combined Score: 0.15570956016451049
+ID: 2748
+Cosine Similarity Score: 0.19861211328611622
+PageRank Score: 0.031353601184532384
+Combined Score: 0.14843455965564106
+ID: 267
+Cosine Similarity Score: 0.18440895104867513
+PageRank Score: 0.057230586894096706
+Combined Score: 0.1462554418023016
+ID: 2611
+Cosine Similarity Score: 0.17858678461636227
+PageRank Score: 0.06986495726132991
+Combined Score: 0.14597023640985254
+ID: 117
+Cosine Similarity Score: 0.17623493468929677
+PageRank Score: 0.06986495726133106
+Combined Score: 0.14432394146090705
+ID: 1289
+Cosine Similarity Score: 0.16393748925280097
+PageRank Score: 0.06986495726133254
+Combined Score: 0.13571572965536044
+ID: 2464
+Cosine Similarity Score: 0.16299698697646714
+PageRank Score: 0.06986495726133204
+Combined Score: 0.1350573780619266
+ID: 2508
+Cosine Similarity Score: 0.16260918190878912
+PageRank Score: 0.06986495726133123
+Combined Score: 0.13478591451455174
+ID: 1786
+Cosine Similarity Score: 0.06288646120006389
+PageRank Score: 0.3010111405555122
+Combined Score: 0.13432386500669838
+ID: 1655
+Cosine Similarity Score: 0.1594697655214831
+PageRank Score: 0.0698649572613342
+Combined Score: 0.13258832304343843
+Matching document with id#: 1947 found.
+Matching document with id#: 1795 found.
+Number of Expected CACM Matched Documents Retrieved: 2
+MAP: 0.22354164354164352
 R-Precision: 0.18181818181818182
 ------------------------------------------
 Query #14: find all discussions of optimal implementations of sort algorithms for
 database management applications
-Number of Documents Retrieved: 4
-MAP: 0.042424242424242434
-R-Precision: 0.09090909090909091
+All results retrieved: 
+ID: 1751
+Cosine Similarity Score: 0.036437632792666645
+PageRank Score: 0.597202424640702
+Combined Score: 0.20466707034707723
+ID: 1749
+Cosine Similarity Score: 0.03420535025920933
+PageRank Score: 0.4712840339963992
+Combined Score: 0.1653289553803663
+ID: 307
+Cosine Similarity Score: 0.17070969121467214
+PageRank Score: 0.1316476832161099
+Combined Score: 0.15899108881510346
+ID: 270
+Cosine Similarity Score: 0.1443788075783103
+PageRank Score: 0.11747013413592108
+Combined Score: 0.13630620554559353
+ID: 1831
+Cosine Similarity Score: 0.146356783556719
+PageRank Score: 0.10363264650312606
+Combined Score: 0.1335395424406411
+ID: 853
+Cosine Similarity Score: 0.1536315978677358
+PageRank Score: 0.07397475098490773
+Combined Score: 0.12973454380288738
+ID: 862
+Cosine Similarity Score: 0.15398359738759276
+PageRank Score: 0.04729339394230757
+Combined Score: 0.12197653635400721
+ID: 2397
+Cosine Similarity Score: 0.1434268144868486
+PageRank Score: 0.06986495726133328
+Combined Score: 0.121358257319194
+ID: 132
+Cosine Similarity Score: 0.13628729409291618
+PageRank Score: 0.06986495726133114
+Combined Score: 0.11636059304344065
+ID: 662
+Cosine Similarity Score: 0.13628729409291618
+PageRank Score: 0.06986495726132834
+Combined Score: 0.11636059304343982
+ID: 701
+Cosine Similarity Score: 0.13628729409291618
+PageRank Score: 0.069864957261328
+Combined Score: 0.11636059304343972
+ID: 841
+Cosine Similarity Score: 0.13628729409291618
+PageRank Score: 0.06986495726132784
+Combined Score: 0.11636059304343967
+ID: 1795
+Cosine Similarity Score: 0.13015339714620738
+PageRank Score: 0.0698649572613342
+Combined Score: 0.11206686518074543
+ID: 89
+Cosine Similarity Score: 0.12394361387559395
+PageRank Score: 0.06986495726133098
+Combined Score: 0.10772001689131505
+ID: 2976
+Cosine Similarity Score: 0.14634563327882646
+PageRank Score: 0.014348586812956863
+Combined Score: 0.10674651933906558
+Matching document with id#: 862 found.
+Matching document with id#: 2397 found.
+Number of Expected CACM Matched Documents Retrieved: 2
+MAP: 0.10624005624005625
+R-Precision: 0.045454545454545456
 ------------------------------------------
 Query #15: Find all discussions of horizontal microcode optimization with special
 emphasis on optimization of loops and global optimization.
-Number of Documents Retrieved: 1
-MAP: 0.013333333333333334
-R-Precision: 0.1
-------------------------------------------
-Query #16: find all descriptions of file handling in operating systems based on
-multiple processes and message passing.
-Number of Documents Retrieved: 0
+All results retrieved: 
+ID: 196
+Cosine Similarity Score: 0.0398834093588296
+PageRank Score: 1.0
+Combined Score: 0.3279183865511807
+ID: 1751
+Cosine Similarity Score: 0.010610793991182987
+PageRank Score: 0.597202424640702
+Combined Score: 0.18658828318603868
+ID: 1749
+Cosine Similarity Score: 0.02979238327012438
+PageRank Score: 0.4712840339963992
+Combined Score: 0.1622398784880068
+ID: 307
+Cosine Similarity Score: 0.14868576143940526
+PageRank Score: 0.1316476832161099
+Combined Score: 0.14357433797241664
+ID: 2046
+Cosine Similarity Score: 0.017543565436294904
+PageRank Score: 0.4320828179000148
+Combined Score: 0.14190534117541087
+ID: 1626
+Cosine Similarity Score: 0.06904187990968658
+PageRank Score: 0.29422307963801375
+Combined Score: 0.13659623982818472
+ID: 820
+Cosine Similarity Score: 0.1643146254204332
+PageRank Score: 0.06986495726132784
+Combined Score: 0.13597972497270158
+ID: 731
+Cosine Similarity Score: 0.01425880302362922
+PageRank Score: 0.3734319565679024
+Combined Score: 0.12201074908691117
+ID: 89
+Cosine Similarity Score: 0.1416903841506477
+PageRank Score: 0.06986495726133098
+Combined Score: 0.12014275608385268
+ID: 987
+Cosine Similarity Score: 0.030896114982669323
+PageRank Score: 0.30194296836638046
+Combined Score: 0.11221017099778266
+ID: 1786
+Cosine Similarity Score: 0.026459570076314064
+PageRank Score: 0.3010111405555122
+Combined Score: 0.1088250412200735
+ID: 799
+Cosine Similarity Score: 0.012449870420484782
+PageRank Score: 0.33102565300859055
+Combined Score: 0.10802260519691652
+ID: 1737
+Cosine Similarity Score: 0.12235528701936396
+PageRank Score: 0.0698649572613342
+Combined Score: 0.10660818809195502
+ID: 3125
+Cosine Similarity Score: 0.12163821611013789
+PageRank Score: 0.06986495726132397
+Combined Score: 0.1061062384554937
+ID: 1502
+Cosine Similarity Score: 0.06902033021020187
+PageRank Score: 0.18885742016603105
+Combined Score: 0.10497145719695063
+Number of Expected CACM Matched Documents Retrieved: 0
 MAP: 0.0
 R-Precision: 0.0
 ------------------------------------------
+Query #16: find all descriptions of file handling in operating systems based on
+multiple processes and message passing.
+All results retrieved: 
+ID: 196
+Cosine Similarity Score: 0.04016145102894286
+PageRank Score: 1.0
+Combined Score: 0.32811301572025997
+ID: 1749
+Cosine Similarity Score: 0.08155169604632834
+PageRank Score: 0.4712840339963992
+Combined Score: 0.1984713974313496
+ID: 1751
+Cosine Similarity Score: 0.017509860712534308
+PageRank Score: 0.597202424640702
+Combined Score: 0.1914176298909846
+ID: 1461
+Cosine Similarity Score: 0.242410687796367
+PageRank Score: 0.0698649572613342
+Combined Score: 0.19064696863585717
+ID: 394
+Cosine Similarity Score: 0.19510604658874026
+PageRank Score: 0.0698649572613304
+Combined Score: 0.1575337197905173
+ID: 2046
+Cosine Similarity Score: 0.0395823060920411
+PageRank Score: 0.4320828179000148
+Combined Score: 0.1573324596344332
+ID: 296
+Cosine Similarity Score: 0.18165373773663634
+PageRank Score: 0.09054349128096872
+Combined Score: 0.15432066379993606
+ID: 107
+Cosine Similarity Score: 0.1576409461546131
+PageRank Score: 0.14269805856810103
+Combined Score: 0.15315807987865948
+ID: 987
+Cosine Similarity Score: 0.08646275731433073
+PageRank Score: 0.30194296836638046
+Combined Score: 0.15110682062994565
+ID: 1786
+Cosine Similarity Score: 0.085574207876154
+PageRank Score: 0.3010111405555122
+Combined Score: 0.15020528767996144
+ID: 307
+Cosine Similarity Score: 0.14972230365325492
+PageRank Score: 0.1316476832161099
+Combined Score: 0.1442999175221114
+ID: 1950
+Cosine Similarity Score: 0.17468586855950746
+PageRank Score: 0.0698649572613342
+Combined Score: 0.14323959517005547
+ID: 1471
+Cosine Similarity Score: 0.02019073807497231
+PageRank Score: 0.42201690972755607
+Combined Score: 0.14073858957074742
+ID: 525
+Cosine Similarity Score: 0.15353675597131883
+PageRank Score: 0.06986495726132941
+Combined Score: 0.128435216358322
+ID: 43
+Cosine Similarity Score: 0.1410990181410467
+PageRank Score: 0.09771855010183812
+Combined Score: 0.12808487772928412
+Matching document with id#: 1749 found.
+Number of Expected CACM Matched Documents Retrieved: 1
+MAP: 0.15454859954859962
+R-Precision: 0.058823529411764705
+------------------------------------------
 Query #17: Optimization of intermediate and machine code
-Number of Documents Retrieved: 1
-MAP: 0.05
+All results retrieved: 
+ID: 210
+Cosine Similarity Score: 0.14469300765613388
+PageRank Score: 0.45519946252160987
+Combined Score: 0.23784494411577667
+ID: 195
+Cosine Similarity Score: 0.30762210058894657
+PageRank Score: 0.06986495726133114
+Combined Score: 0.23629495759066194
+ID: 91
+Cosine Similarity Score: 0.21323819978304023
+PageRank Score: 0.10687587089357893
+Combined Score: 0.18132950111620183
+ID: 797
+Cosine Similarity Score: 0.2077292579336149
+PageRank Score: 0.08031858992596602
+Combined Score: 0.16950605753132023
+ID: 2491
+Cosine Similarity Score: 0.19096609480138496
+PageRank Score: 0.11745223801864549
+Combined Score: 0.1689119377665631
+ID: 230
+Cosine Similarity Score: 0.1893579401889878
+PageRank Score: 0.10837631333812717
+Combined Score: 0.16506345213372958
+ID: 35
+Cosine Similarity Score: 0.1844948762432995
+PageRank Score: 0.09486355681995517
+Combined Score: 0.15760548041629618
+ID: 1223
+Cosine Similarity Score: 0.20071835480435776
+PageRank Score: 0.05577565055817621
+Combined Score: 0.15723554353050329
+ID: 731
+Cosine Similarity Score: 0.06379722155134916
+PageRank Score: 0.3734319565679024
+Combined Score: 0.15668764205631514
+ID: 1795
+Cosine Similarity Score: 0.19250010426587175
+PageRank Score: 0.0698649572613342
+Combined Score: 0.15570956016451049
+ID: 2079
+Cosine Similarity Score: 0.19106184910470947
+PageRank Score: 0.0698649572613342
+Combined Score: 0.1547027815516969
+ID: 2046
+Cosine Similarity Score: 0.03288840725360891
+PageRank Score: 0.4320828179000148
+Combined Score: 0.15264673044753066
+ID: 2611
+Cosine Similarity Score: 0.17858678461636227
+PageRank Score: 0.06986495726132991
+Combined Score: 0.14597023640985254
+ID: 2138
+Cosine Similarity Score: 0.1092078370511393
+PageRank Score: 0.2168625959411948
+Combined Score: 0.14150426471815594
+ID: 2748
+Cosine Similarity Score: 0.1878193141427178
+PageRank Score: 0.031353601184532384
+Combined Score: 0.14087960025526217
+Matching document with id#: 1223 found.
+Number of Expected CACM Matched Documents Retrieved: 1
+MAP: 0.04835812335812337
 R-Precision: 0.0625
 ------------------------------------------
 Query #18: Languages and compilers for parallel processors, especially highly
 horizontal microcoded machines; code compaction
-Number of Documents Retrieved: 1
-MAP: 0.05454545454545456
-R-Precision: 0.09090909090909091
+All results retrieved: 
+ID: 1795
+Cosine Similarity Score: 0.24781654015845764
+PageRank Score: 0.0698649572613342
+Combined Score: 0.1944310652893206
+ID: 2138
+Cosine Similarity Score: 0.1523770870570631
+PageRank Score: 0.2168625959411948
+Combined Score: 0.17172273972230262
+ID: 799
+Cosine Similarity Score: 0.09385911506037538
+PageRank Score: 0.33102565300859055
+Combined Score: 0.16500907644483992
+ID: 249
+Cosine Similarity Score: 0.1644439537621665
+PageRank Score: 0.12796767352636104
+Combined Score: 0.15350106969142485
+ID: 1471
+Cosine Similarity Score: 0.03823074631382664
+PageRank Score: 0.42201690972755607
+Combined Score: 0.15336659533794544
+ID: 195
+Cosine Similarity Score: 0.18550310634081865
+PageRank Score: 0.06986495726133114
+Combined Score: 0.1508116616169724
+ID: 2685
+Cosine Similarity Score: 0.14439850250887237
+PageRank Score: 0.11986215637857163
+Combined Score: 0.13703759866978213
+ID: 392
+Cosine Similarity Score: 0.16331607019352704
+PageRank Score: 0.0698649572613304
+Combined Score: 0.13528073631386803
+ID: 731
+Cosine Similarity Score: 0.029569781041759724
+PageRank Score: 0.3734319565679024
+Combined Score: 0.13272843369960252
+ID: 14
+Cosine Similarity Score: 0.118804649828634
+PageRank Score: 0.16292387084184579
+Combined Score: 0.13204041613259754
+ID: 1491
+Cosine Similarity Score: 0.02817182008745651
+PageRank Score: 0.36613172989737025
+Combined Score: 0.12955979303043064
+ID: 1785
+Cosine Similarity Score: 0.062435118125390765
+PageRank Score: 0.28190936061538197
+Combined Score: 0.12827739087238813
+ID: 1852
+Cosine Similarity Score: 0.14953712089453938
+PageRank Score: 0.04091116400651313
+Combined Score: 0.11694933382813151
+ID: 1786
+Cosine Similarity Score: 0.03792196294433725
+PageRank Score: 0.3010111405555122
+Combined Score: 0.11684871622768973
+ID: 141
+Cosine Similarity Score: 0.13541371935803737
+PageRank Score: 0.06986495726133114
+Combined Score: 0.1157490907290255
+Matching document with id#: 1471 found.
+Matching document with id#: 2685 found.
+Number of Expected CACM Matched Documents Retrieved: 2
+MAP: 0.1402083102083102
+R-Precision: 0.18181818181818182
 ------------------------------------------
 Query #19: Parallel algorithms
-Number of Documents Retrieved: 4
-MAP: 0.16363636363636364
-R-Precision: 0.36363636363636365
+All results retrieved: 
+ID: 392
+Cosine Similarity Score: 0.38301013473407436
+PageRank Score: 0.0698649572613304
+Combined Score: 0.2890665814922512
+ID: 270
+Cosine Similarity Score: 0.32284082825546356
+PageRank Score: 0.11747013413592108
+Combined Score: 0.2612296200196008
+ID: 141
+Cosine Similarity Score: 0.3175733216866227
+PageRank Score: 0.06986495726133114
+Combined Score: 0.24326081235903524
+ID: 1795
+Cosine Similarity Score: 0.30894504454104205
+PageRank Score: 0.0698649572613342
+Combined Score: 0.2372210183571297
+ID: 1471
+Cosine Similarity Score: 0.08965904751009197
+PageRank Score: 0.42201690972755607
+Combined Score: 0.18936640617533118
+ID: 1952
+Cosine Similarity Score: 0.2122478636879022
+PageRank Score: 0.0698649572613342
+Combined Score: 0.16953299175993178
+ID: 1796
+Cosine Similarity Score: 0.20876277226295117
+PageRank Score: 0.0698649572613342
+Combined Score: 0.16709342776246608
+ID: 2973
+Cosine Similarity Score: 0.19758630494448284
+PageRank Score: 0.08837041407744634
+Combined Score: 0.16482153768437188
+ID: 2725
+Cosine Similarity Score: 0.20407541776572072
+PageRank Score: 0.06986495726132784
+Combined Score: 0.16381227961440284
+ID: 2685
+Cosine Similarity Score: 0.1813658963568392
+PageRank Score: 0.11986215637857163
+Combined Score: 0.1629147743633589
+ID: 371
+Cosine Similarity Score: 0.19051094055152054
+PageRank Score: 0.06986495726133056
+Combined Score: 0.15431714556446352
+ID: 804
+Cosine Similarity Score: 0.1902228531469085
+PageRank Score: 0.06986495726132776
+Combined Score: 0.15411548438123426
+ID: 1601
+Cosine Similarity Score: 0.18815719931173586
+PageRank Score: 0.07177945873058815
+Combined Score: 0.15324387713739152
+ID: 1660
+Cosine Similarity Score: 0.18321261790519974
+PageRank Score: 0.0698649572613342
+Combined Score: 0.14920831971204007
+ID: 2557
+Cosine Similarity Score: 0.17767526290149072
+PageRank Score: 0.08076716899760787
+Combined Score: 0.14860283473032587
+Matching document with id#: 141 found.
+Matching document with id#: 2973 found.
+Matching document with id#: 1601 found.
+Number of Expected CACM Matched Documents Retrieved: 3
+MAP: 0.1839079439079439
+R-Precision: 0.2727272727272727
 ------------------------------------------
 Query #20: Graph theoretic algorithms applicable to sparse matrices
-Number of Documents Retrieved: 1
-MAP: 0.22222222222222224
+All results retrieved: 
+ID: 349
+Cosine Similarity Score: 0.26188511184052216
+PageRank Score: 0.06986495726133064
+Combined Score: 0.2042790654667647
+ID: 496
+Cosine Similarity Score: 0.21856647745320223
+PageRank Score: 0.11064654180686422
+Combined Score: 0.18619049675930083
+ID: 285
+Cosine Similarity Score: 0.21495352490563802
+PageRank Score: 0.06986495726133089
+Combined Score: 0.17142695461234586
+ID: 315
+Cosine Similarity Score: 0.21495352490563802
+PageRank Score: 0.06986495726133081
+Combined Score: 0.17142695461234583
+ID: 956
+Cosine Similarity Score: 0.21132575817458935
+PageRank Score: 0.06986495726132874
+Combined Score: 0.16888751790061116
+ID: 270
+Cosine Similarity Score: 0.18639223909869368
+PageRank Score: 0.11747013413592108
+Combined Score: 0.1657156076098619
+ID: 2695
+Cosine Similarity Score: 0.20563867113509118
+PageRank Score: 0.06986495726132859
+Combined Score: 0.1649065569729624
+ID: 2442
+Cosine Similarity Score: 0.204616056263548
+PageRank Score: 0.06986495726133254
+Combined Score: 0.16419072656288336
+ID: 635
+Cosine Similarity Score: 0.15483054488352135
+PageRank Score: 0.16558651294585355
+Combined Score: 0.158057335302221
+ID: 511
+Cosine Similarity Score: 0.1816964183326396
+PageRank Score: 0.09786444170905546
+Combined Score: 0.15654682534556436
+ID: 2506
+Cosine Similarity Score: 0.204616056263548
+PageRank Score: 0.03135360118453329
+Combined Score: 0.15263731973984357
+ID: 751
+Cosine Similarity Score: 0.18639475824060636
+PageRank Score: 0.06986495726132784
+Combined Score: 0.1514358179468228
+ID: 955
+Cosine Similarity Score: 0.1826866164521758
+PageRank Score: 0.06986495726132874
+Combined Score: 0.14884011869492167
+ID: 256
+Cosine Similarity Score: 0.1816964183326396
+PageRank Score: 0.06986495726133106
+Combined Score: 0.14814698001124704
+ID: 301
+Cosine Similarity Score: 0.1816964183326396
+PageRank Score: 0.06986495726133089
+Combined Score: 0.148146980011247
+Matching document with id#: 2695 found.
+Number of Expected CACM Matched Documents Retrieved: 1
+MAP: 0.057881932881932885
 R-Precision: 0.3333333333333333
 ------------------------------------------
 Query #21: computational complexity, intractability, class-complete reductions,
 algorithms and efficiency
-Number of Documents Retrieved: 0
+All results retrieved: 
+ID: 1751
+Cosine Similarity Score: 0.043334128813276286
+PageRank Score: 0.597202424640702
+Combined Score: 0.20949461756150398
+ID: 2325
+Cosine Similarity Score: 0.20678782774158644
+PageRank Score: 0.07148972370927191
+Combined Score: 0.16619839653189206
+ID: 3007
+Cosine Similarity Score: 0.20729456387366807
+PageRank Score: 0.06986495726132397
+Combined Score: 0.16606568188996482
+ID: 270
+Cosine Similarity Score: 0.17256568139918185
+PageRank Score: 0.11747013413592108
+Combined Score: 0.1560370172202036
+ID: 1491
+Cosine Similarity Score: 0.06250233653932624
+PageRank Score: 0.36613172989737025
+Combined Score: 0.15359115454673944
+ID: 164
+Cosine Similarity Score: 0.1657585105642061
+PageRank Score: 0.03135360118453189
+Combined Score: 0.12543703775030382
+ID: 2454
+Cosine Similarity Score: 0.11312246029855383
+PageRank Score: 0.144091945402668
+Combined Score: 0.12241330582978807
+ID: 267
+Cosine Similarity Score: 0.13940006400259375
+PageRank Score: 0.057230586894096706
+Combined Score: 0.11474922087004463
+ID: 117
+Cosine Similarity Score: 0.13322108843131125
+PageRank Score: 0.06986495726133106
+Combined Score: 0.11421424908031719
+ID: 2337
+Cosine Similarity Score: 0.12713613402316448
+PageRank Score: 0.0698649572613342
+Combined Score: 0.10995478099461539
+ID: 2508
+Cosine Similarity Score: 0.12292098749323409
+PageRank Score: 0.06986495726133123
+Combined Score: 0.10700417842366322
+ID: 2504
+Cosine Similarity Score: 0.1219055723824136
+PageRank Score: 0.06986495726133123
+Combined Score: 0.10629338784608888
+ID: 149
+Cosine Similarity Score: 0.11679691731909364
+PageRank Score: 0.06986495726133123
+Combined Score: 0.1027173293017649
+ID: 1969
+Cosine Similarity Score: 0.1154810958501315
+PageRank Score: 0.06731889925982826
+Combined Score: 0.10103243687304053
+ID: 1728
+Cosine Similarity Score: 0.030533011018926106
+PageRank Score: 0.264184725806045
+Combined Score: 0.10062852545506178
+Number of Expected CACM Matched Documents Retrieved: 0
 MAP: 0.0
 R-Precision: 0.0
 ------------------------------------------
 Query #22: I am interested in hidden-line and hidden-surface algorithms for
 cylinders, toroids, spheres, and cones.  This is a rather specialized
 topic in computer graphics.
-Number of Documents Retrieved: 6
-MAP: 0.26274509803921575
-R-Precision: 0.35294117647058826
+All results retrieved: 
+ID: 210
+Cosine Similarity Score: 0.08220570298353443
+PageRank Score: 0.45519946252160987
+Combined Score: 0.19410383084495703
+ID: 1751
+Cosine Similarity Score: 0.0212197597036447
+PageRank Score: 0.597202424640702
+Combined Score: 0.19401455918476188
+ID: 1834
+Cosine Similarity Score: 0.031488119377989406
+PageRank Score: 0.4047569769666973
+Combined Score: 0.14346877665460178
+ID: 266
+Cosine Similarity Score: 0.16829320699803652
+PageRank Score: 0.06986495726133098
+Combined Score: 0.13876473207702483
+ID: 1471
+Cosine Similarity Score: 0.013542209926743482
+PageRank Score: 0.42201690972755607
+Combined Score: 0.13608461986698725
+ID: 87
+Cosine Similarity Score: 0.13732932837216405
+PageRank Score: 0.1283822125988006
+Combined Score: 0.134645193640155
+ID: 1491
+Cosine Similarity Score: 0.028181671622405844
+PageRank Score: 0.36613172989737025
+Combined Score: 0.12956668910489516
+ID: 1786
+Cosine Similarity Score: 0.05184202284556892
+PageRank Score: 0.3010111405555122
+Combined Score: 0.1265927581585519
+ID: 2441
+Cosine Similarity Score: 0.14650035390516214
+PageRank Score: 0.06986495726133254
+Combined Score: 0.12350973491201325
+ID: 2473
+Cosine Similarity Score: 0.14650035390516214
+PageRank Score: 0.06986495726133171
+Combined Score: 0.123509734912013
+ID: 2564
+Cosine Similarity Score: 0.14650035390516214
+PageRank Score: 0.06986495726133081
+Combined Score: 0.12350973491201273
+ID: 2637
+Cosine Similarity Score: 0.14650035390516214
+PageRank Score: 0.06986495726132899
+Combined Score: 0.12350973491201218
+ID: 2638
+Cosine Similarity Score: 0.14650035390516214
+PageRank Score: 0.06986495726132891
+Combined Score: 0.12350973491201216
+ID: 731
+Cosine Similarity Score: 0.010625411290099048
+PageRank Score: 0.3734319565679024
+Combined Score: 0.11946737487344004
+ID: 270
+Cosine Similarity Score: 0.11414146945165994
+PageRank Score: 0.11747013413592108
+Combined Score: 0.11514006885693828
+Matching document with id#: 2441 found.
+Matching document with id#: 2473 found.
+Matching document with id#: 2564 found.
+Matching document with id#: 2637 found.
+Matching document with id#: 2638 found.
+Number of Expected CACM Matched Documents Retrieved: 5
+MAP: 0.1328175528175528
+R-Precision: 0.29411764705882354
 ------------------------------------------
 Query #23: Distributed computing structures and algorithms
-Number of Documents Retrieved: 2
-MAP: 0.2833333333333333
+All results retrieved: 
+ID: 270
+Cosine Similarity Score: 0.22828293890331988
+PageRank Score: 0.11747013413592108
+Combined Score: 0.19503909747310022
+ID: 72
+Cosine Similarity Score: 0.24838170111238822
+PageRank Score: 0.06986495726133089
+Combined Score: 0.194826677957071
+ID: 830
+Cosine Similarity Score: 0.14605300875457344
+PageRank Score: 0.2476073799382504
+Combined Score: 0.17651932010967653
+ID: 1831
+Cosine Similarity Score: 0.2072564135496587
+PageRank Score: 0.10363264650312606
+Combined Score: 0.17616928343569893
+ID: 627
+Cosine Similarity Score: 0.17901059279790385
+PageRank Score: 0.13670140017511864
+Combined Score: 0.16631783501106828
+ID: 657
+Cosine Similarity Score: 0.22182876349372593
+PageRank Score: 0.0364252721374563
+Combined Score: 0.16620771608684504
+ID: 1105
+Cosine Similarity Score: 0.2227043910876415
+PageRank Score: 0.03135360118453073
+Combined Score: 0.16529915411670826
+ID: 1471
+Cosine Similarity Score: 0.0537857798935044
+PageRank Score: 0.42201690972755607
+Combined Score: 0.16425511884371988
+ID: 2578
+Cosine Similarity Score: 0.20264457160849753
+PageRank Score: 0.06986495726133064
+Combined Score: 0.16281068730434745
+ID: 793
+Cosine Similarity Score: 0.20802362475899258
+PageRank Score: 0.042541024629205934
+Combined Score: 0.15837884472005656
+ID: 3148
+Cosine Similarity Score: 0.19103848182410332
+PageRank Score: 0.015276709858617774
+Combined Score: 0.13830995023445766
+ID: 52
+Cosine Similarity Score: 0.16097998823017068
+PageRank Score: 0.06986495726133081
+Combined Score: 0.13364547893951872
+ID: 88
+Cosine Similarity Score: 0.16879098673086917
+PageRank Score: 0.0483586155561056
+Combined Score: 0.1326612753784401
+ID: 1780
+Cosine Similarity Score: 0.157809385871182
+PageRank Score: 0.0698649572613342
+Combined Score: 0.13142605728822765
+ID: 481
+Cosine Similarity Score: 0.1557283580648603
+PageRank Score: 0.06986495726132982
+Combined Score: 0.12996933782380116
+Matching document with id#: 2578 found.
+Matching document with id#: 3148 found.
+Number of Expected CACM Matched Documents Retrieved: 2
+MAP: 0.06597550597550597
 R-Precision: 0.5
 ------------------------------------------
 Query #24: Applied stochastic processes
-Number of Documents Retrieved: 2
-MAP: 0.1333333333333333
+All results retrieved: 
+ID: 268
+Cosine Similarity Score: 0.3271567218264287
+PageRank Score: 0.06986495726133098
+Combined Score: 0.24996919245689936
+ID: 1749
+Cosine Similarity Score: 0.10731325311065792
+PageRank Score: 0.4712840339963992
+Combined Score: 0.21650448737638028
+ID: 412
+Cosine Similarity Score: 0.2724917974007432
+PageRank Score: 0.08351135211884292
+Combined Score: 0.2157976638161731
+ID: 1834
+Cosine Similarity Score: 0.05796555666928242
+PageRank Score: 0.4047569769666973
+Combined Score: 0.16200298275850689
+ID: 2046
+Cosine Similarity Score: 0.0410854012621038
+PageRank Score: 0.4320828179000148
+Combined Score: 0.1583846262534771
+ID: 20
+Cosine Similarity Score: 0.17484879312797902
+PageRank Score: 0.06986495726133064
+Combined Score: 0.1433536423679845
+ID: 1410
+Cosine Similarity Score: 0.1300850262022949
+PageRank Score: 0.13761128963816044
+Combined Score: 0.13234290523305453
+ID: 1198
+Cosine Similarity Score: 0.09290492972758586
+PageRank Score: 0.21042275073959218
+Combined Score: 0.12816027603118774
+ID: 2371
+Cosine Similarity Score: 0.1345478849593573
+PageRank Score: 0.1126899285910889
+Combined Score: 0.12799049804887677
+ID: 2844
+Cosine Similarity Score: 0.15848627930926376
+PageRank Score: 0.05491734103039717
+Combined Score: 0.12741559782560377
+ID: 1696
+Cosine Similarity Score: 0.14541966938722958
+PageRank Score: 0.0698649572613342
+Combined Score: 0.12275325574946097
+ID: 224
+Cosine Similarity Score: 0.06417933990436014
+PageRank Score: 0.2564158008434337
+Combined Score: 0.1218502781860822
+ID: 2150
+Cosine Similarity Score: 0.08604659812752821
+PageRank Score: 0.19004102365387765
+Combined Score: 0.11724492578543304
+ID: 927
+Cosine Similarity Score: 0.13376143073556024
+PageRank Score: 0.06986495726132834
+Combined Score: 0.11459248869329067
+ID: 2203
+Cosine Similarity Score: 0.06905102837301574
+PageRank Score: 0.21663085408999447
+Combined Score: 0.11332497608810935
+Matching document with id#: 268 found.
+Matching document with id#: 1696 found.
+Number of Expected CACM Matched Documents Retrieved: 2
+MAP: 0.24716598216598212
 R-Precision: 0.15384615384615385
 ------------------------------------------
 Query #25: Performance evaluation and modelling of computer systems
-Number of Documents Retrieved: 3
-MAP: 0.024836601307189544
-R-Precision: 0.058823529411764705
+All results retrieved: 
+ID: 436
+Cosine Similarity Score: 0.39619724974508397
+PageRank Score: 0.09157667009931741
+Combined Score: 0.304811075851354
+ID: 1751
+Cosine Similarity Score: 0.04924230118777086
+PageRank Score: 0.597202424640702
+Combined Score: 0.21363033822365018
+ID: 2318
+Cosine Similarity Score: 0.2656686534417112
+PageRank Score: 0.03135360118453329
+Combined Score: 0.1953741377645578
+ID: 1938
+Cosine Similarity Score: 0.1847456566446626
+PageRank Score: 0.15120128466788715
+Combined Score: 0.17468234505162994
+ID: 1471
+Cosine Similarity Score: 0.0567816284671791
+PageRank Score: 0.42201690972755607
+Combined Score: 0.16635221284529217
+ID: 1728
+Cosine Similarity Score: 0.12006298929179271
+PageRank Score: 0.264184725806045
+Combined Score: 0.1632995102460684
+ID: 819
+Cosine Similarity Score: 0.20633833593370576
+PageRank Score: 0.05432528726542856
+Combined Score: 0.16073442133322258
+ID: 1128
+Cosine Similarity Score: 0.1805833207984076
+PageRank Score: 0.09486355681995534
+Combined Score: 0.15486739160487192
+ID: 987
+Cosine Similarity Score: 0.08925121583746036
+PageRank Score: 0.30194296836638046
+Combined Score: 0.1530587415961364
+ID: 25
+Cosine Similarity Score: 0.18845082648673842
+PageRank Score: 0.06986495726133073
+Combined Score: 0.1528750657191161
+ID: 360
+Cosine Similarity Score: 0.1805833207984076
+PageRank Score: 0.07791535372936215
+Combined Score: 0.14978293067769397
+ID: 2268
+Cosine Similarity Score: 0.16996371614224454
+PageRank Score: 0.09486355681995626
+Combined Score: 0.14743366834555804
+ID: 741
+Cosine Similarity Score: 0.1805833207984076
+PageRank Score: 0.06986495726132784
+Combined Score: 0.14736781173728367
+ID: 742
+Cosine Similarity Score: 0.1805833207984076
+PageRank Score: 0.06986495726132776
+Combined Score: 0.14736781173728364
+ID: 2046
+Cosine Similarity Score: 0.021234127193346837
+PageRank Score: 0.4320828179000148
+Combined Score: 0.1444887344053472
+Matching document with id#: 2318 found.
+Number of Expected CACM Matched Documents Retrieved: 1
+MAP: 0.1212152662152662
+R-Precision: 0.0196078431372549
 ------------------------------------------
 Query #26: Concurrency control mechanisms in operating systems
-Number of Documents Retrieved: 2
-MAP: 0.02222222222222222
-R-Precision: 0.06666666666666667
+All results retrieved: 
+ID: 1461
+Cosine Similarity Score: 0.319613329079375
+PageRank Score: 0.0698649572613342
+Combined Score: 0.24468881753396277
+ID: 1751
+Cosine Similarity Score: 0.028233802040251617
+PageRank Score: 0.597202424640702
+Combined Score: 0.1989243888203867
+ID: 2578
+Cosine Similarity Score: 0.20022674002358293
+PageRank Score: 0.06986495726133064
+Combined Score: 0.16111820519490722
+ID: 987
+Cosine Similarity Score: 0.08925121583746036
+PageRank Score: 0.30194296836638046
+Combined Score: 0.1530587415961364
+ID: 25
+Cosine Similarity Score: 0.18845082648673842
+PageRank Score: 0.06986495726133073
+Combined Score: 0.1528750657191161
+ID: 1471
+Cosine Similarity Score: 0.032556586897762405
+PageRank Score: 0.42201690972755607
+Combined Score: 0.14939468374670048
+ID: 2046
+Cosine Similarity Score: 0.021234127193346837
+PageRank Score: 0.4320828179000148
+Combined Score: 0.1444887344053472
+ID: 2844
+Cosine Similarity Score: 0.17975174831393584
+PageRank Score: 0.05491734103039717
+Combined Score: 0.14230142612887423
+ID: 2080
+Cosine Similarity Score: 0.12620450554737123
+PageRank Score: 0.16888129271560637
+Combined Score: 0.13900754169784177
+ID: 1069
+Cosine Similarity Score: 0.14590965051026908
+PageRank Score: 0.11697839938125115
+Combined Score: 0.1372302751715637
+ID: 1338
+Cosine Similarity Score: 0.11615150403162137
+PageRank Score: 0.17836909205260634
+Combined Score: 0.13481678043791687
+ID: 2632
+Cosine Similarity Score: 0.1529886100424206
+PageRank Score: 0.08023996216526837
+Combined Score: 0.1311640156792749
+ID: 1728
+Cosine Similarity Score: 0.07415457335166185
+PageRank Score: 0.264184725806045
+Combined Score: 0.1311636190879768
+ID: 2626
+Cosine Similarity Score: 0.1685420080957489
+PageRank Score: 0.04367464857691951
+Combined Score: 0.13108180024010008
+ID: 2138
+Cosine Similarity Score: 0.09140975249642164
+PageRank Score: 0.2168625959411948
+Combined Score: 0.12904560552985359
+Matching document with id#: 2080 found.
+Matching document with id#: 1338 found.
+Matching document with id#: 2632 found.
+Number of Expected CACM Matched Documents Retrieved: 3
+MAP: 0.08586561586561586
+R-Precision: 0.1
 ------------------------------------------
 Query #27: Memory management aspects of operating systems
-Number of Documents Retrieved: 3
-MAP: 0.05977011494252874
-R-Precision: 0.10344827586206896
+All results retrieved: 
+ID: 1751
+Cosine Similarity Score: 0.11841691628386372
+PageRank Score: 0.597202424640702
+Combined Score: 0.2620525687909152
+ID: 1461
+Cosine Similarity Score: 0.319613329079375
+PageRank Score: 0.0698649572613342
+Combined Score: 0.24468881753396277
+ID: 155
+Cosine Similarity Score: 0.18491738434643867
+PageRank Score: 0.18549276731275147
+Combined Score: 0.18508999923633251
+ID: 1471
+Cosine Similarity Score: 0.07712706723308903
+PageRank Score: 0.42201690972755607
+Combined Score: 0.18059401998142913
+ID: 2046
+Cosine Similarity Score: 0.05942137175937367
+PageRank Score: 0.4320828179000148
+Combined Score: 0.171219805601566
+ID: 2818
+Cosine Similarity Score: 0.20210695491673122
+PageRank Score: 0.06986495726132635
+Combined Score: 0.16243435562010974
+ID: 1728
+Cosine Similarity Score: 0.11442506771174037
+PageRank Score: 0.264184725806045
+Combined Score: 0.15935296514003178
+ID: 987
+Cosine Similarity Score: 0.08925121583746036
+PageRank Score: 0.30194296836638046
+Combined Score: 0.1530587415961364
+ID: 25
+Cosine Similarity Score: 0.18845082648673842
+PageRank Score: 0.06986495726133073
+Combined Score: 0.1528750657191161
+ID: 2502
+Cosine Similarity Score: 0.18532417044089866
+PageRank Score: 0.06986495726133139
+Combined Score: 0.15068640648702847
+ID: 1781
+Cosine Similarity Score: 0.10250467111343996
+PageRank Score: 0.22412438187559944
+Combined Score: 0.13899058434208778
+ID: 1069
+Cosine Similarity Score: 0.14590965051026908
+PageRank Score: 0.11697839938125115
+Combined Score: 0.1372302751715637
+ID: 2435
+Cosine Similarity Score: 0.12857342337869002
+PageRank Score: 0.14963790966982043
+Combined Score: 0.13489276926602914
+ID: 2406
+Cosine Similarity Score: 0.1612111486472599
+PageRank Score: 0.05432528726542881
+Combined Score: 0.12914539023271057
+ID: 2138
+Cosine Similarity Score: 0.09140975249642164
+PageRank Score: 0.2168625959411948
+Combined Score: 0.12904560552985359
+Matching document with id#: 2818 found.
+Matching document with id#: 2435 found.
+Number of Expected CACM Matched Documents Retrieved: 2
+MAP: 0.08332759832759833
+R-Precision: 0.06896551724137931
 ------------------------------------------
 Query #28: Any information on packet radio networks.  Of particular interest are
 algorithms for packet routing, and for dealing with changes in
 network topography.  I am not interested in the hardware used in the
 network.
-Number of Documents Retrieved: 3
-MAP: 0.49333333333333323
-R-Precision: 0.6
+All results retrieved: 
+ID: 196
+Cosine Similarity Score: 0.02994394795517963
+PageRank Score: 1.0
+Combined Score: 0.32096076356862574
+ID: 1751
+Cosine Similarity Score: 0.02911472465511125
+PageRank Score: 0.597202424640702
+Combined Score: 0.19954103465078846
+ID: 2046
+Cosine Similarity Score: 0.08452064616522718
+PageRank Score: 0.4320828179000148
+Combined Score: 0.18878929768566347
+ID: 210
+Cosine Similarity Score: 0.06799702729739117
+PageRank Score: 0.45519946252160987
+Combined Score: 0.18415775786465677
+ID: 1728
+Cosine Similarity Score: 0.11677150724732048
+PageRank Score: 0.264184725806045
+Combined Score: 0.16099547281493784
+ID: 1749
+Cosine Similarity Score: 0.011521901337280519
+PageRank Score: 0.4712840339963992
+Combined Score: 0.1494505411350161
+ID: 987
+Cosine Similarity Score: 0.07003483520287375
+PageRank Score: 0.30194296836638046
+Combined Score: 0.13960727515192575
+ID: 3032
+Cosine Similarity Score: 0.18088444971168974
+PageRank Score: 0.03135360118452884
+Combined Score: 0.13602519515354144
+ID: 1834
+Cosine Similarity Score: 0.020388980189964982
+PageRank Score: 0.4047569769666973
+Combined Score: 0.1356993792229847
+ID: 136
+Cosine Similarity Score: 0.1629730088032512
+PageRank Score: 0.06986495726133114
+Combined Score: 0.13504059334067517
+ID: 1471
+Cosine Similarity Score: 0.009633095576525743
+PageRank Score: 0.42201690972755607
+Combined Score: 0.13334823982183483
+ID: 731
+Cosine Similarity Score: 0.020073026089017308
+PageRank Score: 0.3734319565679024
+Combined Score: 0.12608070523268283
+ID: 1491
+Cosine Similarity Score: 0.02214731495070713
+PageRank Score: 0.36613172989737025
+Combined Score: 0.12534263943470605
+ID: 616
+Cosine Similarity Score: 0.08902462478123845
+PageRank Score: 0.20090323491729212
+Combined Score: 0.12258820782205454
+ID: 1572
+Cosine Similarity Score: 0.0997302572972405
+PageRank Score: 0.16958621964546144
+Combined Score: 0.12068704600170678
+Matching document with id#: 3032 found.
+Number of Expected CACM Matched Documents Retrieved: 1
+MAP: 0.04835812335812337
+R-Precision: 0.2
 ------------------------------------------
 Query #29: Number-theoretic algorithms, especially involving prime number series,
 sieves, and Chinese Remainder theorem.
-Number of Documents Retrieved: 7
-MAP: 0.27719298245614027
+All results retrieved: 
+ID: 2089
+Cosine Similarity Score: 0.21266159475924615
+PageRank Score: 0.0698649572613342
+Combined Score: 0.16982260350987255
+ID: 1539
+Cosine Similarity Score: 0.1615510352676204
+PageRank Score: 0.16275040515423542
+Combined Score: 0.1619108462336049
+ID: 1537
+Cosine Similarity Score: 0.18810607593503956
+PageRank Score: 0.09737465061648885
+Combined Score: 0.16088664833947433
+ID: 1749
+Cosine Similarity Score: 0.02658029300090457
+PageRank Score: 0.4712840339963992
+Combined Score: 0.15999141529955296
+ID: 2462
+Cosine Similarity Score: 0.19282473685376034
+PageRank Score: 0.06986495726133221
+Combined Score: 0.15593680297603188
+ID: 804
+Cosine Similarity Score: 0.1923917707559909
+PageRank Score: 0.06986495726132776
+Combined Score: 0.15563372670759193
+ID: 1834
+Cosine Similarity Score: 0.04743838055931114
+PageRank Score: 0.4047569769666973
+Combined Score: 0.154633959481527
+ID: 1538
+Cosine Similarity Score: 0.18377458243740236
+PageRank Score: 0.08268475190678116
+Combined Score: 0.153447633278216
+ID: 1840
+Cosine Similarity Score: 0.17651523822692794
+PageRank Score: 0.08268475190678116
+Combined Score: 0.1483660923308839
+ID: 1471
+Cosine Similarity Score: 0.022222938335818704
+PageRank Score: 0.42201690972755607
+Combined Score: 0.1421611297533399
+ID: 270
+Cosine Similarity Score: 0.1376597917058069
+PageRank Score: 0.11747013413592108
+Combined Score: 0.13160289443484113
+ID: 826
+Cosine Similarity Score: 0.12552851057376763
+PageRank Score: 0.13852436875908433
+Combined Score: 0.12942726802936264
+ID: 2138
+Cosine Similarity Score: 0.08448908781162372
+PageRank Score: 0.2168625959411948
+Combined Score: 0.12420114025049503
+ID: 2644
+Cosine Similarity Score: 0.13939143723803504
+PageRank Score: 0.06986495726132891
+Combined Score: 0.1185334932450232
+ID: 1841
+Cosine Similarity Score: 0.14763170941807427
+PageRank Score: 0.03133810072158953
+Combined Score: 0.11274362680912883
+Matching document with id#: 2089 found.
+Matching document with id#: 1539 found.
+Matching document with id#: 1537 found.
+Matching document with id#: 2462 found.
+Matching document with id#: 1538 found.
+Matching document with id#: 1840 found.
+Matching document with id#: 1841 found.
+Number of Expected CACM Matched Documents Retrieved: 7
+MAP: 0.6721328671328671
 R-Precision: 0.3684210526315789
 ------------------------------------------
 Query #30: Articles on text formatting systems, including "what you see is what you
 get" systems.  Examples: t/nroff, scribe, bravo.
-Number of Documents Retrieved: 2
-MAP: 0.15
-R-Precision: 0.5
+All results retrieved: 
+ID: 196
+Cosine Similarity Score: 0.036113082305998884
+PageRank Score: 1.0
+Combined Score: 0.32527915761419923
+ID: 1751
+Cosine Similarity Score: 0.017544259322267854
+PageRank Score: 0.597202424640702
+Combined Score: 0.19144170891779808
+ID: 195
+Cosine Similarity Score: 0.21355336324656207
+PageRank Score: 0.06986495726133114
+Combined Score: 0.1704468414509928
+ID: 1256
+Cosine Similarity Score: 0.19223768249736123
+PageRank Score: 0.06986495726133221
+Combined Score: 0.15552586492655252
+ID: 987
+Cosine Similarity Score: 0.08343538372368034
+PageRank Score: 0.30194296836638046
+Combined Score: 0.14898765911649037
+ID: 2046
+Cosine Similarity Score: 0.02185403618646646
+PageRank Score: 0.4320828179000148
+Combined Score: 0.14492267070053094
+ID: 1471
+Cosine Similarity Score: 0.02023040334305614
+PageRank Score: 0.42201690972755607
+Combined Score: 0.1407663552584061
+ID: 1834
+Cosine Similarity Score: 0.02435049784593723
+PageRank Score: 0.4047569769666973
+Combined Score: 0.13847244158216526
+ID: 1491
+Cosine Similarity Score: 0.023596619640226194
+PageRank Score: 0.36613172989737025
+Combined Score: 0.12635715271736941
+ID: 731
+Cosine Similarity Score: 0.012910865331109163
+PageRank Score: 0.3734319565679024
+Combined Score: 0.12106719270214714
+ID: 799
+Cosine Similarity Score: 0.011272937856162799
+PageRank Score: 0.33102565300859055
+Combined Score: 0.10719875240189113
+ID: 1461
+Cosine Similarity Score: 0.11852271306480168
+PageRank Score: 0.0698649572613342
+Combined Score: 0.10392538632376144
+ID: 25
+Cosine Similarity Score: 0.1171018400095568
+PageRank Score: 0.06986495726133073
+Combined Score: 0.10293077518508897
+ID: 953
+Cosine Similarity Score: 0.10645385321586019
+PageRank Score: 0.08937321488850374
+Combined Score: 0.10132966171765326
+ID: 2203
+Cosine Similarity Score: 0.051696771813264125
+PageRank Score: 0.21663085408999447
+Combined Score: 0.10117699649628321
+Number of Expected CACM Matched Documents Retrieved: 0
+MAP: 0.0
+R-Precision: 0.0
 ------------------------------------------
 Query #31: I'd like to find articles describing the use of singular value decomposition
 in digital image processing.  Applications include finding approximations
@@ -181,7 +2063,68 @@ to the original image and restoring images that are subject to noise. An
 article on the subject is H.C. Andrews and C.L. Patterson "Outer product
 expansions and their uses in digital image processing", American Mathematical
 Monthly, vol. 82.
-Number of Documents Retrieved: 0
+All results retrieved: 
+ID: 196
+Cosine Similarity Score: 0.02159750818438064
+PageRank Score: 1.0
+Combined Score: 0.31511825572906643
+ID: 1751
+Cosine Similarity Score: 0.011235011908191915
+PageRank Score: 0.597202424640702
+Combined Score: 0.18702523572794494
+ID: 210
+Cosine Similarity Score: 0.04178430030456671
+PageRank Score: 0.45519946252160987
+Combined Score: 0.16580884896967965
+ID: 1471
+Cosine Similarity Score: 0.029512119844780166
+PageRank Score: 0.42201690972755607
+Combined Score: 0.14726355680961292
+ID: 1749
+Cosine Similarity Score: 0.008310338997516785
+PageRank Score: 0.4712840339963992
+Combined Score: 0.1472024474971815
+ID: 1834
+Cosine Similarity Score: 0.02832011538237017
+PageRank Score: 0.4047569769666973
+Combined Score: 0.1412511738576683
+ID: 1491
+Cosine Similarity Score: 0.042948409260016064
+PageRank Score: 0.36613172989737025
+Combined Score: 0.13990340545122232
+ID: 987
+Cosine Similarity Score: 0.06933415326880756
+PageRank Score: 0.30194296836638046
+Combined Score: 0.13911679779807942
+ID: 2046
+Cosine Similarity Score: 0.010758895216130994
+PageRank Score: 0.4320828179000148
+Combined Score: 0.13715607202129612
+ID: 532
+Cosine Similarity Score: 0.09265225022299056
+PageRank Score: 0.23973057636464398
+Combined Score: 0.1367757480654866
+ID: 731
+Cosine Similarity Score: 0.028820251279462198
+PageRank Score: 0.3734319565679024
+Combined Score: 0.13220376286599425
+ID: 1839
+Cosine Similarity Score: 0.15150373681171173
+PageRank Score: 0.0698649572613342
+Combined Score: 0.12701210294659845
+ID: 1626
+Cosine Similarity Score: 0.040378931837939634
+PageRank Score: 0.29422307963801375
+Combined Score: 0.11653217617796187
+ID: 1144
+Cosine Similarity Score: 0.13294619792851375
+PageRank Score: 0.06986495726133089
+Combined Score: 0.1140218257283589
+ID: 1686
+Cosine Similarity Score: 0.11889967861510248
+PageRank Score: 0.0976937456885098
+Combined Score: 0.11253789873712466
+Number of Expected CACM Matched Documents Retrieved: 0
 MAP: 0.0
 R-Precision: 0.0
 ------------------------------------------
@@ -189,9 +2132,1462 @@ Query #32: I'd like to find articles describing graph algorithms that are based 
 the eigenvalue decomposition (or singular value decomposition) of the
 ajacency matrix for the graph.  I'm especially interested in any heuristic
 algorithms for graph coloring and graph isomorphism using this method.
-Number of Documents Retrieved: 1
-MAP: 0.28888888888888886
+All results retrieved: 
+ID: 196
+Cosine Similarity Score: 0.026027774398752684
+PageRank Score: 1.0
+Combined Score: 0.3182194420791269
+ID: 1751
+Cosine Similarity Score: 0.014074257128383966
+PageRank Score: 0.597202424640702
+Combined Score: 0.18901270738207937
+ID: 1839
+Cosine Similarity Score: 0.22479332791297651
+PageRank Score: 0.0698649572613342
+Combined Score: 0.1783148167174838
+ID: 1786
+Cosine Similarity Score: 0.10255488507277287
+PageRank Score: 0.3010111405555122
+Combined Score: 0.16209176171759465
+ID: 1749
+Cosine Similarity Score: 0.025272054592857668
+PageRank Score: 0.4712840339963992
+Combined Score: 0.15907564841392013
+ID: 2046
+Cosine Similarity Score: 0.03216251001340125
+PageRank Score: 0.4320828179000148
+Combined Score: 0.1521386023793853
+ID: 1491
+Cosine Similarity Score: 0.04977187025415497
+PageRank Score: 0.36613172989737025
+Combined Score: 0.14467982814711955
+ID: 119
+Cosine Similarity Score: 0.16853613612331553
+PageRank Score: 0.06986495726133106
+Combined Score: 0.13893478246472019
+ID: 1834
+Cosine Similarity Score: 0.023327137005892732
+PageRank Score: 0.4047569769666973
+Combined Score: 0.1377560889941341
+ID: 1471
+Cosine Similarity Score: 0.008373245866000252
+PageRank Score: 0.42201690972755607
+Combined Score: 0.132466345024467
+ID: 1172
+Cosine Similarity Score: 0.11373023523637699
+PageRank Score: 0.1714909339850099
+Combined Score: 0.13105844486096685
+ID: 731
+Cosine Similarity Score: 0.025087249139631028
+PageRank Score: 0.3734319565679024
+Combined Score: 0.12959066136811243
+ID: 1785
+Cosine Similarity Score: 0.05110873626253366
+PageRank Score: 0.28190936061538197
+Combined Score: 0.12034892356838814
+ID: 3139
+Cosine Similarity Score: 0.13990903796813917
+PageRank Score: 0.06986495726132397
+Combined Score: 0.11889581375609459
+ID: 1184
+Cosine Similarity Score: 0.04494303856379055
+PageRank Score: 0.2804371292944197
+Combined Score: 0.11559126578297929
+Matching document with id#: 3139 found.
+Number of Expected CACM Matched Documents Retrieved: 1
+MAP: 0.009206349206349208
 R-Precision: 0.3333333333333333
 ------------------------------------------
 Query #33: Articles about the sensitivity of the eigenvalue decomposition of real
-matrices, in particular, zero-one matrices.  I'm especi
+matrices, in particular, zero-one matrices.  I'm especially interested in
+the separation of eigenspaces corresponding to distinct eigenvalues.
+Articles on the subject:
+C. Davis and W.M. Kahn, "The rotation of eigenvectors by a permutation:,
+SIAM J. Numerical Analysis, vol. 7, no. 1 (1970); G.W. Stewart, "Error
+bounds for approximate invariant subspaces of closed linear operators",
+SIAM J. Numerical Analysis., Vol. 8, no. 4 (1971).
+All results retrieved: 
+ID: 196
+Cosine Similarity Score: 0.019309950165084612
+PageRank Score: 1.0
+Combined Score: 0.3135169651155592
+ID: 1662
+Cosine Similarity Score: 0.17450407475552257
+PageRank Score: 0.16689356867560454
+Combined Score: 0.17222092293154714
+ID: 210
+Cosine Similarity Score: 0.01715352338152978
+PageRank Score: 0.45519946252160987
+Combined Score: 0.1485673051235538
+ID: 2046
+Cosine Similarity Score: 0.013575531819131903
+PageRank Score: 0.4320828179000148
+Combined Score: 0.13912771764339676
+ID: 1952
+Cosine Similarity Score: 0.16424924252575998
+PageRank Score: 0.0698649572613342
+Combined Score: 0.13593395694643223
+ID: 1834
+Cosine Similarity Score: 0.005500866615509726
+PageRank Score: 0.4047569769666973
+Combined Score: 0.125277699720866
+ID: 1491
+Cosine Similarity Score: 0.01970215626720714
+PageRank Score: 0.36613172989737025
+Combined Score: 0.12363102835625607
+ID: 2043
+Cosine Similarity Score: 0.13895999576732548
+PageRank Score: 0.07791535372936478
+Combined Score: 0.12064660315593725
+ID: 559
+Cosine Similarity Score: 0.14000984546714956
+PageRank Score: 0.06986495726132907
+Combined Score: 0.11896637900540341
+ID: 1954
+Cosine Similarity Score: 0.13895999576732548
+PageRank Score: 0.0698649572613342
+Combined Score: 0.1182314842155281
+ID: 1577
+Cosine Similarity Score: 0.13804444279935457
+PageRank Score: 0.0698649572613342
+Combined Score: 0.11759059713794845
+ID: 1285
+Cosine Similarity Score: 0.13804444279935457
+PageRank Score: 0.06986495726133246
+Combined Score: 0.11759059713794794
+ID: 2335
+Cosine Similarity Score: 0.15424923502024754
+PageRank Score: 0.03135360118453329
+Combined Score: 0.11738054486953325
+ID: 731
+Cosine Similarity Score: 0.006903541603548557
+PageRank Score: 0.3734319565679024
+Combined Score: 0.11686206609285471
+ID: 1968
+Cosine Similarity Score: 0.14567471564931395
+PageRank Score: 0.04835861555610742
+Combined Score: 0.11647988562135198
+Number of Expected CACM Matched Documents Retrieved: 0
+MAP: 0.0
+R-Precision: 0.0
+------------------------------------------
+Query #36: Fast algorithm for context-free language recognition or parsing
+All results retrieved: 
+ID: 196
+Cosine Similarity Score: 0.1079850430144284
+PageRank Score: 1.0
+Combined Score: 0.3755895301100999
+ID: 1
+Cosine Similarity Score: 0.09037718518951918
+PageRank Score: 0.40620265760251756
+Combined Score: 0.1851248269134187
+ID: 1265
+Cosine Similarity Score: 0.20452015152053424
+PageRank Score: 0.1246921323571285
+Combined Score: 0.18057174577151253
+ID: 1131
+Cosine Similarity Score: 0.21337002863438784
+PageRank Score: 0.07177945873058476
+Combined Score: 0.1708928576632469
+ID: 1749
+Cosine Similarity Score: 0.03465280087505949
+PageRank Score: 0.4712840339963992
+Combined Score: 0.1656421708114614
+ID: 1184
+Cosine Similarity Score: 0.109396957169281
+PageRank Score: 0.2804371292944197
+Combined Score: 0.1607090088068226
+ID: 204
+Cosine Similarity Score: 0.1818003507996964
+PageRank Score: 0.10837631333812685
+Combined Score: 0.15977313956122552
+ID: 1471
+Cosine Similarity Score: 0.045072959768166374
+PageRank Score: 0.42201690972755607
+Combined Score: 0.15815614475598327
+ID: 2112
+Cosine Similarity Score: 0.2051397761646021
+PageRank Score: 0.03135360118453329
+Combined Score: 0.15300392367058144
+ID: 2982
+Cosine Similarity Score: 0.20946940034393824
+PageRank Score: 0.014348586812956863
+Combined Score: 0.15093315628464382
+ID: 2110
+Cosine Similarity Score: 0.1844132044532146
+PageRank Score: 0.06925169444125878
+Combined Score: 0.14986475144962783
+ID: 987
+Cosine Similarity Score: 0.08365178300996128
+PageRank Score: 0.30194296836638046
+Combined Score: 0.14913913861688702
+ID: 2836
+Cosine Similarity Score: 0.18085217961031266
+PageRank Score: 0.06986495726132594
+Combined Score: 0.14755601290561665
+ID: 2046
+Cosine Similarity Score: 0.018896249116864227
+PageRank Score: 0.4320828179000148
+Combined Score: 0.1428522197518094
+ID: 1137
+Cosine Similarity Score: 0.18287567106346084
+PageRank Score: 0.04686026379439538
+Combined Score: 0.1420710488827412
+Matching document with id#: 1265 found.
+Matching document with id#: 2110 found.
+Matching document with id#: 2836 found.
+Number of Expected CACM Matched Documents Retrieved: 3
+MAP: 0.16150053650053653
+R-Precision: 0.15
+------------------------------------------
+Query #37: Articles describing the relationship between data types and concurrency
+(e.g. what is the type of a process?  when is a synchronization attempt
+between two processes "type correct"?  in a message-passing system is there
+any notion of the types of messages?--i.e. any way to check that the sender
+of the message and the receiver are both treating the bit stream as some
+particular type)
+All results retrieved: 
+ID: 1751
+Cosine Similarity Score: 0.03060828280026163
+PageRank Score: 0.597202424640702
+Combined Score: 0.20058652535239374
+ID: 1749
+Cosine Similarity Score: 0.05077247355372891
+PageRank Score: 0.4712840339963992
+Combined Score: 0.17692594168652997
+ID: 2046
+Cosine Similarity Score: 0.05833717521289423
+PageRank Score: 0.4320828179000148
+Combined Score: 0.17046086801903038
+ID: 1834
+Cosine Similarity Score: 0.045686913179615
+PageRank Score: 0.4047569769666973
+Combined Score: 0.15340793231573968
+ID: 1491
+Cosine Similarity Score: 0.05790091991171982
+PageRank Score: 0.36613172989737025
+Combined Score: 0.15037016290741495
+ID: 731
+Cosine Similarity Score: 0.043533249907671386
+PageRank Score: 0.3734319565679024
+Combined Score: 0.14250286190574069
+ID: 1626
+Cosine Similarity Score: 0.0772786292237661
+PageRank Score: 0.29422307963801375
+Combined Score: 0.14236196434804038
+ID: 1471
+Cosine Similarity Score: 0.02230925496660056
+PageRank Score: 0.42201690972755607
+Combined Score: 0.1422215513948872
+ID: 2912
+Cosine Similarity Score: 0.15476049360865224
+PageRank Score: 0.03800023116732638
+Combined Score: 0.11973241487625447
+ID: 1198
+Cosine Similarity Score: 0.08011795947580803
+PageRank Score: 0.21042275073959218
+Combined Score: 0.11920939685494328
+ID: 2265
+Cosine Similarity Score: 0.14023856345481767
+PageRank Score: 0.0698649572613342
+Combined Score: 0.11912648159677261
+ID: 2060
+Cosine Similarity Score: 0.12037892489789641
+PageRank Score: 0.10773484715888788
+Combined Score: 0.11658570157619384
+ID: 1455
+Cosine Similarity Score: 0.06714911120705101
+PageRank Score: 0.22750612579872648
+Combined Score: 0.11525621558455365
+ID: 1786
+Cosine Similarity Score: 0.034543014475660126
+PageRank Score: 0.3010111405555122
+Combined Score: 0.11448345229961575
+ID: 799
+Cosine Similarity Score: 0.019826219401962393
+PageRank Score: 0.33102565300859055
+Combined Score: 0.11318604948395083
+Matching document with id#: 2265 found.
+Number of Expected CACM Matched Documents Retrieved: 1
+MAP: 0.02595071595071595
+R-Precision: 0.08333333333333333
+------------------------------------------
+Query #38: What is the type of a module?	(I don't want the entire literature on
+Abstract Data Types here, but I'm not sure how to phrase this to avoid it.
+I'm interested in questions about how one can check that a module "matches"
+contexts in which it is used.)
+All results retrieved: 
+ID: 196
+Cosine Similarity Score: 0.02421125231918571
+PageRank Score: 1.0
+Combined Score: 0.31694787662343
+ID: 1751
+Cosine Similarity Score: 0.01668212958136086
+PageRank Score: 0.597202424640702
+Combined Score: 0.19083821809916318
+ID: 210
+Cosine Similarity Score: 0.05497916264468142
+PageRank Score: 0.45519946252160987
+Combined Score: 0.17504525260775994
+ID: 2046
+Cosine Similarity Score: 0.06146860517023352
+PageRank Score: 0.4320828179000148
+Combined Score: 0.1726528689891679
+ID: 1834
+Cosine Similarity Score: 0.05583184823380873
+PageRank Score: 0.4047569769666973
+Combined Score: 0.1605093868536753
+ID: 1749
+Cosine Similarity Score: 0.027034129942164305
+PageRank Score: 0.4712840339963992
+Combined Score: 0.16030910115843477
+ID: 1491
+Cosine Similarity Score: 0.06065070107320084
+PageRank Score: 0.36613172989737025
+Combined Score: 0.15229500972045165
+ID: 1471
+Cosine Similarity Score: 0.009663393696315315
+PageRank Score: 0.42201690972755607
+Combined Score: 0.13336944850568752
+ID: 1728
+Cosine Similarity Score: 0.07698801422956884
+PageRank Score: 0.264184725806045
+Combined Score: 0.1331470277025117
+ID: 731
+Cosine Similarity Score: 0.025159254786579082
+PageRank Score: 0.3734319565679024
+Combined Score: 0.12964106532097608
+ID: 1626
+Cosine Similarity Score: 0.058981104615322515
+PageRank Score: 0.29422307963801375
+Combined Score: 0.12955369712212988
+ID: 987
+Cosine Similarity Score: 0.050450201062456144
+PageRank Score: 0.30194296836638046
+Combined Score: 0.12589803125363344
+ID: 483
+Cosine Similarity Score: 0.1272170059356566
+PageRank Score: 0.121962130542565
+Combined Score: 0.12564054331772911
+ID: 492
+Cosine Similarity Score: 0.1085169694898755
+PageRank Score: 0.1488923864690486
+Combined Score: 0.12062959458362743
+ID: 2247
+Cosine Similarity Score: 0.0987380736380448
+PageRank Score: 0.1695535803845654
+Combined Score: 0.11998272566200097
+Number of Expected CACM Matched Documents Retrieved: 0
+MAP: 0.0
+R-Precision: 0.0
+------------------------------------------
+Query #39: What does type compatibility mean in languages that allow programmer
+defined types?  (You might want to restrict this to "extensible" languages
+that allow definition of abstract data types or programmer-supplied
+definitions of operators like *, +.)
+All results retrieved: 
+ID: 1751
+Cosine Similarity Score: 0.03156887601015844
+PageRank Score: 0.597202424640702
+Combined Score: 0.2012589405993215
+ID: 1491
+Cosine Similarity Score: 0.09286291985188203
+PageRank Score: 0.36613172989737025
+Combined Score: 0.1748435628655285
+ID: 2046
+Cosine Similarity Score: 0.04284880200514636
+PageRank Score: 0.4320828179000148
+Combined Score: 0.15961900677360688
+ID: 1626
+Cosine Similarity Score: 0.10093993978673617
+PageRank Score: 0.29422307963801375
+Combined Score: 0.15892488174211944
+ID: 1749
+Cosine Similarity Score: 0.016107213975401283
+PageRank Score: 0.4712840339963992
+Combined Score: 0.15266025998170066
+ID: 731
+Cosine Similarity Score: 0.04981194509603642
+PageRank Score: 0.3734319565679024
+Combined Score: 0.1468979485375962
+ID: 1614
+Cosine Similarity Score: 0.16614490516103295
+PageRank Score: 0.09093771068440294
+Combined Score: 0.14358274681804392
+ID: 1471
+Cosine Similarity Score: 0.021604917526504223
+PageRank Score: 0.42201690972755607
+Combined Score: 0.14172851518681975
+ID: 1834
+Cosine Similarity Score: 0.019340026870907065
+PageRank Score: 0.4047569769666973
+Combined Score: 0.13496511189964414
+ID: 2940
+Cosine Similarity Score: 0.15738895107404033
+PageRank Score: 0.07709805459554436
+Combined Score: 0.13330168213049154
+ID: 1861
+Cosine Similarity Score: 0.17797146185278323
+PageRank Score: 0.014348586812959585
+Combined Score: 0.12888459934083613
+ID: 2651
+Cosine Similarity Score: 0.12474136582739556
+PageRank Score: 0.13163856226300627
+Combined Score: 0.12681052475807877
+ID: 2078
+Cosine Similarity Score: 0.129365167842406
+PageRank Score: 0.10837631333813072
+Combined Score: 0.12306851149112341
+ID: 195
+Cosine Similarity Score: 0.14582507379794948
+PageRank Score: 0.06986495726133114
+Combined Score: 0.12303703883696399
+ID: 602
+Cosine Similarity Score: 0.14478872401189657
+PageRank Score: 0.06986495726132874
+Combined Score: 0.12231159398672622
+Matching document with id#: 1861 found.
+Matching document with id#: 2651 found.
+Number of Expected CACM Matched Documents Retrieved: 2
+MAP: 0.04584082584082584
+R-Precision: 0.16666666666666666
+------------------------------------------
+Query #40: List all articles dealing with data types in the following languages:
+Pascal, CLU, Alphard, Russell, Ada, ALGOL 68, EL1.  List any other languages
+that are referenced frequently in papers on the above languages (e.g. catch
+any languages with interesting type structures that I might have missed).
+All results retrieved: 
+ID: 196
+Cosine Similarity Score: 0.080840819106855
+PageRank Score: 1.0
+Combined Score: 0.3565885733747985
+ID: 404
+Cosine Similarity Score: 0.05679246531889508
+PageRank Score: 0.5706681990444319
+Combined Score: 0.21095518543655611
+ID: 1751
+Cosine Similarity Score: 0.013119814146813959
+PageRank Score: 0.597202424640702
+Combined Score: 0.18834459729498035
+ID: 210
+Cosine Similarity Score: 0.05177361138073147
+PageRank Score: 0.45519946252160987
+Combined Score: 0.17280136672299498
+ID: 1749
+Cosine Similarity Score: 0.04108915772372773
+PageRank Score: 0.4712840339963992
+Combined Score: 0.17014762060552915
+ID: 2046
+Cosine Similarity Score: 0.05192131683830815
+PageRank Score: 0.4320828179000148
+Combined Score: 0.16596976715682013
+ID: 731
+Cosine Similarity Score: 0.06295646545603054
+PageRank Score: 0.3734319565679024
+Combined Score: 0.1560991127895921
+ID: 1491
+Cosine Similarity Score: 0.05582389153940585
+PageRank Score: 0.36613172989737025
+Combined Score: 0.14891624304679515
+ID: 1834
+Cosine Similarity Score: 0.03692758271080608
+PageRank Score: 0.4047569769666973
+Combined Score: 0.14727640098757344
+ID: 1471
+Cosine Similarity Score: 0.020562104248631398
+PageRank Score: 0.42201690972755607
+Combined Score: 0.14099854589230879
+ID: 1626
+Cosine Similarity Score: 0.06835557617866118
+PageRank Score: 0.29422307963801375
+Combined Score: 0.13611582721646695
+ID: 1786
+Cosine Similarity Score: 0.057893023922764734
+PageRank Score: 0.3010111405555122
+Combined Score: 0.13082845891258899
+ID: 2651
+Cosine Similarity Score: 0.12786020996237213
+PageRank Score: 0.13163856226300627
+Combined Score: 0.12899371565256237
+ID: 627
+Cosine Similarity Score: 0.12410157982502816
+PageRank Score: 0.13670140017511864
+Combined Score: 0.1278815259300553
+ID: 2060
+Cosine Similarity Score: 0.1324504684363302
+PageRank Score: 0.10773484715888788
+Combined Score: 0.1250357820530975
+Matching document with id#: 2651 found.
+Number of Expected CACM Matched Documents Retrieved: 1
+MAP: 0.014334554334554335
+R-Precision: 0.1
+------------------------------------------
+Query #42: Computer performance evaluation techniques using pattern recognition
+and clustering.
+All results retrieved: 
+ID: 204
+Cosine Similarity Score: 0.30765174031704656
+PageRank Score: 0.10837631333812685
+Combined Score: 0.24786911222337063
+ID: 436
+Cosine Similarity Score: 0.31322142797225777
+PageRank Score: 0.09157667009931741
+Combined Score: 0.24672800061037564
+ID: 633
+Cosine Similarity Score: 0.26020234049768365
+PageRank Score: 0.05432528726542765
+Combined Score: 0.19843922452800683
+ID: 1751
+Cosine Similarity Score: 0.01660867688196663
+PageRank Score: 0.597202424640702
+Combined Score: 0.19078680120958724
+ID: 1834
+Cosine Similarity Score: 0.05534072913391501
+PageRank Score: 0.4047569769666973
+Combined Score: 0.1601656034837497
+ID: 1785
+Cosine Similarity Score: 0.10764651960373209
+PageRank Score: 0.28190936061538197
+Combined Score: 0.15992537190722705
+ID: 462
+Cosine Similarity Score: 0.17762935474165628
+PageRank Score: 0.10837631333812973
+Combined Score: 0.1568534423205983
+ID: 270
+Cosine Similarity Score: 0.1626489427211245
+PageRank Score: 0.11747013413592108
+Combined Score: 0.14909530014556346
+ID: 2107
+Cosine Similarity Score: 0.10835165133835745
+PageRank Score: 0.2159673966887746
+Combined Score: 0.14063637494348258
+ID: 1471
+Cosine Similarity Score: 0.01915157694290419
+PageRank Score: 0.42201690972755607
+Combined Score: 0.14001117677829975
+ID: 2789
+Cosine Similarity Score: 0.15797006270543817
+PageRank Score: 0.06986495726132719
+Combined Score: 0.13153853107220487
+ID: 2318
+Cosine Similarity Score: 0.1744310792295603
+PageRank Score: 0.03135360118453329
+Combined Score: 0.1315078358160522
+ID: 819
+Cosine Similarity Score: 0.163124777539869
+PageRank Score: 0.05432528726542856
+Combined Score: 0.13048493045753687
+ID: 1728
+Cosine Similarity Score: 0.07166301046618556
+PageRank Score: 0.264184725806045
+Combined Score: 0.12941952506814342
+ID: 1626
+Cosine Similarity Score: 0.057681601318140326
+PageRank Score: 0.29422307963801375
+Combined Score: 0.12864404481410235
+Matching document with id#: 2318 found.
+Number of Expected CACM Matched Documents Retrieved: 1
+MAP: 0.019890109890109888
+R-Precision: 0.047619047619047616
+------------------------------------------
+Query #43: Analysis and perception of shape by humans and computers.  Shape
+descriptions, shape recognition by computer.  Two-dimensional shapes.
+Measures of circularity.  Shape matching.
+All results retrieved: 
+ID: 1751
+Cosine Similarity Score: 0.011650094221029523
+PageRank Score: 0.597202424640702
+Combined Score: 0.18731579334693124
+ID: 210
+Cosine Similarity Score: 0.0355467459276251
+PageRank Score: 0.45519946252160987
+Combined Score: 0.16144256090582051
+ID: 1834
+Cosine Similarity Score: 0.029658963259973945
+PageRank Score: 0.4047569769666973
+Combined Score: 0.14218836737199095
+ID: 1471
+Cosine Similarity Score: 0.013433801948931108
+PageRank Score: 0.42201690972755607
+Combined Score: 0.13600873428251858
+ID: 204
+Cosine Similarity Score: 0.1476965765220175
+PageRank Score: 0.10837631333812685
+Combined Score: 0.1359004975668503
+ID: 633
+Cosine Similarity Score: 0.16518100631411478
+PageRank Score: 0.05432528726542765
+Combined Score: 0.13192429059950864
+ID: 1106
+Cosine Similarity Score: 0.15466122053069697
+PageRank Score: 0.06986495726133056
+Combined Score: 0.12922234154988704
+ID: 866
+Cosine Similarity Score: 0.14855719252757157
+PageRank Score: 0.07397475098490773
+Combined Score: 0.1261824600647724
+ID: 436
+Cosine Similarity Score: 0.13555187922190348
+PageRank Score: 0.09157667009931741
+Combined Score: 0.12235931648512766
+ID: 2569
+Cosine Similarity Score: 0.0819667858833037
+PageRank Score: 0.20715082869146717
+Combined Score: 0.11952199872575273
+ID: 1491
+Cosine Similarity Score: 0.013030539495193475
+PageRank Score: 0.36613172989737025
+Combined Score: 0.1189608966158465
+ID: 525
+Cosine Similarity Score: 0.13848483335432912
+PageRank Score: 0.06986495726132941
+Combined Score: 0.11789887052642921
+ID: 1107
+Cosine Similarity Score: 0.14430456945764636
+PageRank Score: 0.048113672040442264
+Combined Score: 0.11544730023248513
+ID: 561
+Cosine Similarity Score: 0.10487375501407162
+PageRank Score: 0.13913565299105865
+Combined Score: 0.11515232440716772
+ID: 1528
+Cosine Similarity Score: 0.12272210573698727
+PageRank Score: 0.09486355681995881
+Combined Score: 0.11436454106187874
+Matching document with id#: 1528 found.
+Number of Expected CACM Matched Documents Retrieved: 1
+MAP: 0.0044444444444444444
+R-Precision: 0.024390243902439025
+------------------------------------------
+Query #44: Texture analysis by computer.	Digitized texture analysis.  Texture
+synthesis. Perception of texture.
+All results retrieved: 
+ID: 1751
+Cosine Similarity Score: 0.015438017608348575
+PageRank Score: 0.597202424640702
+Combined Score: 0.1899673397180546
+ID: 210
+Cosine Similarity Score: 0.04227316452098511
+PageRank Score: 0.45519946252160987
+Combined Score: 0.16615105392117252
+ID: 525
+Cosine Similarity Score: 0.19646293446660607
+PageRank Score: 0.06986495726132941
+Combined Score: 0.15848354130502307
+ID: 1834
+Cosine Similarity Score: 0.037752990573458184
+PageRank Score: 0.4047569769666973
+Combined Score: 0.14785418649142992
+ID: 436
+Cosine Similarity Score: 0.17078677834065406
+PageRank Score: 0.09157667009931741
+Combined Score: 0.14702374586825306
+ID: 2325
+Cosine Similarity Score: 0.17594140497531288
+PageRank Score: 0.07148972370927191
+Combined Score: 0.14460590059550057
+ID: 1471
+Cosine Similarity Score: 0.01780168186625521
+PageRank Score: 0.42201690972755607
+Combined Score: 0.13906625022464544
+ID: 561
+Cosine Similarity Score: 0.13213428581111183
+PageRank Score: 0.13913565299105865
+Combined Score: 0.13423469596509588
+ID: 1208
+Cosine Similarity Score: 0.1281934181893538
+PageRank Score: 0.1336913508658534
+Combined Score: 0.1298427979923037
+ID: 461
+Cosine Similarity Score: 0.14903309061418088
+PageRank Score: 0.06986495726132991
+Combined Score: 0.12528265060832558
+ID: 238
+Cosine Similarity Score: 0.11683790290858227
+PageRank Score: 0.13540182637447926
+Combined Score: 0.12240707994835136
+ID: 1491
+Cosine Similarity Score: 0.015496274708212373
+PageRank Score: 0.36613172989737025
+Combined Score: 0.12068691126495973
+ID: 826
+Cosine Similarity Score: 0.10869175351386573
+PageRank Score: 0.13852436875908433
+Combined Score: 0.1176415380874313
+ID: 2751
+Cosine Similarity Score: 0.07911864771765383
+PageRank Score: 0.206827320175352
+Combined Score: 0.11743124945496328
+ID: 799
+Cosine Similarity Score: 0.01966515012637755
+PageRank Score: 0.33102565300859055
+Combined Score: 0.11307330099104146
+Matching document with id#: 2751 found.
+Number of Expected CACM Matched Documents Retrieved: 1
+MAP: 0.009206349206349208
+R-Precision: 0.058823529411764705
+------------------------------------------
+Query #45: The use of operations research models to optimize information system
+performance.  This includes fine tuning decisions such as secondary index
+selection, file reorganization, and distributed databases.
+All results retrieved: 
+ID: 1751
+Cosine Similarity Score: 0.017618828868217896
+PageRank Score: 0.597202424640702
+Combined Score: 0.19149390759996313
+ID: 2046
+Cosine Similarity Score: 0.07196376281310411
+PageRank Score: 0.4320828179000148
+Combined Score: 0.17999947933917732
+ID: 1749
+Cosine Similarity Score: 0.019436175617868034
+PageRank Score: 0.4712840339963992
+Combined Score: 0.15499053313142738
+ID: 2114
+Cosine Similarity Score: 0.15009867141505207
+PageRank Score: 0.14957918472783305
+Combined Score: 0.14994282540888637
+ID: 1834
+Cosine Similarity Score: 0.039612010302772345
+PageRank Score: 0.4047569769666973
+Combined Score: 0.14915550030194982
+ID: 731
+Cosine Similarity Score: 0.040917347840748346
+PageRank Score: 0.3734319565679024
+Combined Score: 0.14067173045889456
+ID: 652
+Cosine Similarity Score: 0.14410245238686228
+PageRank Score: 0.08959935825189164
+Combined Score: 0.1277515241463711
+ID: 17
+Cosine Similarity Score: 0.12575621855617616
+PageRank Score: 0.1293554315119772
+Combined Score: 0.12683598244291647
+ID: 1786
+Cosine Similarity Score: 0.05115675700599523
+PageRank Score: 0.3010111405555122
+Combined Score: 0.12611307207085032
+ID: 987
+Cosine Similarity Score: 0.048290646140487475
+PageRank Score: 0.30194296836638046
+Combined Score: 0.12438634280825536
+ID: 2318
+Cosine Similarity Score: 0.16348298708614914
+PageRank Score: 0.03135360118453329
+Combined Score: 0.12384417131566437
+ID: 1976
+Cosine Similarity Score: 0.12030697681259979
+PageRank Score: 0.12152854672629018
+Combined Score: 0.1206734477867069
+ID: 1491
+Cosine Similarity Score: 0.014467489919013515
+PageRank Score: 0.36613172989737025
+Combined Score: 0.11996676191252054
+ID: 2964
+Cosine Similarity Score: 0.13805124095037594
+PageRank Score: 0.06986495726132397
+Combined Score: 0.11759535584366033
+ID: 2107
+Cosine Similarity Score: 0.07526130728664891
+PageRank Score: 0.2159673966887746
+Combined Score: 0.1174731341072866
+Matching document with id#: 2964 found.
+Number of Expected CACM Matched Documents Retrieved: 1
+MAP: 0.009206349206349208
+R-Precision: 0.038461538461538464
+------------------------------------------
+Query #48: The use of computer science principles (e.g. data structures,
+numerical methods) in generating optimization (e.g. linear programming)
+algorithms.  This includes issues of the Khachian (Russian, ellipsoidal)
+algorithm and complexity of such algorithms.
+All results retrieved: 
+ID: 1751
+Cosine Similarity Score: 0.016949374756791036
+PageRank Score: 0.597202424640702
+Combined Score: 0.1910252897219643
+ID: 1834
+Cosine Similarity Score: 0.06872533957016622
+PageRank Score: 0.4047569769666973
+Combined Score: 0.16953483078912554
+ID: 2046
+Cosine Similarity Score: 0.028188533889374777
+PageRank Score: 0.4320828179000148
+Combined Score: 0.14935681909256676
+ID: 987
+Cosine Similarity Score: 0.07660043221692597
+PageRank Score: 0.30194296836638046
+Combined Score: 0.14420319306176232
+ID: 1471
+Cosine Similarity Score: 0.024950877938361406
+PageRank Score: 0.42201690972755607
+Combined Score: 0.14407068747511978
+ID: 2325
+Cosine Similarity Score: 0.17432789281574546
+PageRank Score: 0.07148972370927191
+Combined Score: 0.1434764420838034
+ID: 394
+Cosine Similarity Score: 0.14941239560406194
+PageRank Score: 0.0698649572613304
+Combined Score: 0.12554816410124248
+ID: 1728
+Cosine Similarity Score: 0.06252614401722342
+PageRank Score: 0.264184725806045
+Combined Score: 0.1230237185538699
+ID: 799
+Cosine Similarity Score: 0.03193685272063019
+PageRank Score: 0.33102565300859055
+Combined Score: 0.1216634928070183
+ID: 1491
+Cosine Similarity Score: 0.016279899558494418
+PageRank Score: 0.36613172989737025
+Combined Score: 0.12123544866015716
+ID: 731
+Cosine Similarity Score: 0.008487093181832517
+PageRank Score: 0.3734319565679024
+Combined Score: 0.11797055219765348
+ID: 1066
+Cosine Similarity Score: 0.13697176729171795
+PageRank Score: 0.06986495726133016
+Combined Score: 0.1168397242826016
+ID: 1786
+Cosine Similarity Score: 0.035900705984765524
+PageRank Score: 0.3010111405555122
+Combined Score: 0.11543383635598953
+ID: 2569
+Cosine Similarity Score: 0.0743615260088265
+PageRank Score: 0.20715082869146717
+Combined Score: 0.1141983168136187
+ID: 265
+Cosine Similarity Score: 0.10939928798012206
+PageRank Score: 0.12083936402421537
+Combined Score: 0.11283131079335004
+Matching document with id#: 2325 found.
+Number of Expected CACM Matched Documents Retrieved: 1
+MAP: 0.068993043993044
+R-Precision: 0.08333333333333333
+------------------------------------------
+Query #49: The role of information retrieval in knowledge based systems
+(i.e., expert systems).
+All results retrieved: 
+ID: 651
+Cosine Similarity Score: 0.3712998310539317
+PageRank Score: 0.06986495726132834
+Combined Score: 0.2808693689161507
+ID: 1751
+Cosine Similarity Score: 0.06709661806747509
+PageRank Score: 0.597202424640702
+Combined Score: 0.22612836003944314
+ID: 239
+Cosine Similarity Score: 0.27176248802340597
+PageRank Score: 0.06986495726133114
+Combined Score: 0.21119322879478353
+ID: 634
+Cosine Similarity Score: 0.27379104971800067
+PageRank Score: 0.0634042309086545
+Combined Score: 0.2106750040751968
+ID: 210
+Cosine Similarity Score: 0.10561850666615194
+PageRank Score: 0.45519946252160987
+Combined Score: 0.21049279342278931
+ID: 2070
+Cosine Similarity Score: 0.25646332584948484
+PageRank Score: 0.0698649572613342
+Combined Score: 0.20048381527303963
+ID: 275
+Cosine Similarity Score: 0.25461073666640976
+PageRank Score: 0.06986495726133098
+Combined Score: 0.1991870028448861
+ID: 987
+Cosine Similarity Score: 0.144182230941146
+PageRank Score: 0.30194296836638046
+Combined Score: 0.19151045216871632
+ID: 652
+Cosine Similarity Score: 0.23326457895499195
+PageRank Score: 0.08959935825189164
+Combined Score: 0.19016501274406183
+ID: 57
+Cosine Similarity Score: 0.22229155176128312
+PageRank Score: 0.06986495726133081
+Combined Score: 0.17656357341129741
+ID: 292
+Cosine Similarity Score: 0.2161067816407278
+PageRank Score: 0.06986495726133089
+Combined Score: 0.1722342343269087
+ID: 2046
+Cosine Similarity Score: 0.058950561159649584
+PageRank Score: 0.4320828179000148
+Combined Score: 0.17089023818175914
+ID: 1471
+Cosine Similarity Score: 0.026055483663683
+PageRank Score: 0.42201690972755607
+Combined Score: 0.14484391148284492
+ID: 1728
+Cosine Similarity Score: 0.09225775136256778
+PageRank Score: 0.264184725806045
+Combined Score: 0.14383584369561095
+ID: 2278
+Cosine Similarity Score: 0.16243223057324124
+PageRank Score: 0.09783453137489444
+Combined Score: 0.1430529208137372
+Number of Expected CACM Matched Documents Retrieved: 0
+MAP: 0.0
+R-Precision: 0.0
+------------------------------------------
+Query #57: Abstracts of articles:
+J. Backus, "Can programming be liberated from the Von Neumann style?
+A functional style and its algebra of programs", CACM 21
+(1978), 613-641.
+R.A.De Millo, R.J. Lipton, A.J. Perlis, letter to ACM Forum, CACM 22
+(1979), 629-630
+All results retrieved: 
+ID: 1751
+Cosine Similarity Score: 0.020851961536443725
+PageRank Score: 0.597202424640702
+Combined Score: 0.19375710046772118
+ID: 1749
+Cosine Similarity Score: 0.02596088625536059
+PageRank Score: 0.4712840339963992
+Combined Score: 0.15955783057767217
+ID: 1834
+Cosine Similarity Score: 0.054366463887466965
+PageRank Score: 0.4047569769666973
+Combined Score: 0.15948361781123607
+ID: 3077
+Cosine Similarity Score: 0.21561898733522175
+PageRank Score: 0.011105362422502431
+Combined Score: 0.15426489986140596
+ID: 2046
+Cosine Similarity Score: 0.022690308786590865
+PageRank Score: 0.4320828179000148
+Combined Score: 0.14550806152061804
+ID: 1471
+Cosine Similarity Score: 0.025637252225381376
+PageRank Score: 0.42201690972755607
+Combined Score: 0.14455114947603376
+ID: 1491
+Cosine Similarity Score: 0.03182900121911005
+PageRank Score: 0.36613172989737025
+Combined Score: 0.1321198198225881
+ID: 731
+Cosine Similarity Score: 0.017136566721014934
+PageRank Score: 0.3734319565679024
+Combined Score: 0.12402518367508117
+ID: 57
+Cosine Similarity Score: 0.14500294541412506
+PageRank Score: 0.06986495726133081
+Combined Score: 0.12246154896828677
+ID: 987
+Cosine Similarity Score: 0.033150744951030625
+PageRank Score: 0.30194296836638046
+Combined Score: 0.11378841197563558
+ID: 1626
+Cosine Similarity Score: 0.03499214074135404
+PageRank Score: 0.29422307963801375
+Combined Score: 0.11276142241035195
+ID: 1198
+Cosine Similarity Score: 0.0602153693179265
+PageRank Score: 0.21042275073959218
+Combined Score: 0.1052775837444262
+ID: 1728
+Cosine Similarity Score: 0.03269354577351775
+PageRank Score: 0.264184725806045
+Combined Score: 0.10214089978327592
+ID: 134
+Cosine Similarity Score: 0.10707350013025382
+PageRank Score: 0.08455485597103866
+Combined Score: 0.10031790688248926
+ID: 1786
+Cosine Similarity Score: 0.012532750673739228
+PageRank Score: 0.3010111405555122
+Combined Score: 0.09907626763827111
+Matching document with id#: 3077 found.
+Number of Expected CACM Matched Documents Retrieved: 1
+MAP: 0.09899304399304398
+R-Precision: 1.0
+------------------------------------------
+Query #58: Algorithms or statistical packages for ANOVA, regression using least
+squares or generalized linear models.  System design, capabilities,
+statistical formula are of interest.  Student's t test, Wilcoxon and
+sign tests, multivariate and univariate components can be included.
+All results retrieved: 
+ID: 1749
+Cosine Similarity Score: 0.07262138409244201
+PageRank Score: 0.4712840339963992
+Combined Score: 0.19222017906362915
+ID: 1751
+Cosine Similarity Score: 0.016372394492011798
+PageRank Score: 0.597202424640702
+Combined Score: 0.19062140353661886
+ID: 2046
+Cosine Similarity Score: 0.043550685802325476
+PageRank Score: 0.4320828179000148
+Combined Score: 0.16011032543163226
+ID: 1834
+Cosine Similarity Score: 0.023831347705920772
+PageRank Score: 0.4047569769666973
+Combined Score: 0.13810903648415374
+ID: 1578
+Cosine Similarity Score: 0.16235056623212935
+PageRank Score: 0.0698649572613342
+Combined Score: 0.13460488354089079
+ID: 1471
+Cosine Similarity Score: 0.008315231361443137
+PageRank Score: 0.42201690972755607
+Combined Score: 0.132425734871277
+ID: 1396
+Cosine Similarity Score: 0.08687315745885592
+PageRank Score: 0.23725544218093536
+Combined Score: 0.13198784287547974
+ID: 731
+Cosine Similarity Score: 0.023107057300701204
+PageRank Score: 0.3734319565679024
+Combined Score: 0.12820452708086155
+ID: 1474
+Cosine Similarity Score: 0.13104012167693455
+PageRank Score: 0.10837631333813072
+Combined Score: 0.12424097917529339
+ID: 2418
+Cosine Similarity Score: 0.14753700946243667
+PageRank Score: 0.06986495726133288
+Combined Score: 0.12423539380210552
+ID: 1816
+Cosine Similarity Score: 0.16235056623212935
+PageRank Score: 0.03135360118453329
+Combined Score: 0.12305147671785052
+ID: 1491
+Cosine Similarity Score: 0.01844239107705244
+PageRank Score: 0.36613172989737025
+Combined Score: 0.12274919272314777
+ID: 799
+Cosine Similarity Score: 0.03086245768761914
+PageRank Score: 0.33102565300859055
+Combined Score: 0.12091141628391057
+ID: 1344
+Cosine Similarity Score: 0.14217221979277714
+PageRank Score: 0.06986495726133304
+Combined Score: 0.1204800410333439
+ID: 266
+Cosine Similarity Score: 0.13842093705820588
+PageRank Score: 0.06986495726133098
+Combined Score: 0.1178541431191434
+Matching document with id#: 1344 found.
+Number of Expected CACM Matched Documents Retrieved: 1
+MAP: 0.009206349206349208
+R-Precision: 0.03333333333333333
+------------------------------------------
+Query #59: Dictionary construction and accessing methods for fast retrieval
+of words or lexical items or morphologically related information.
+Hashing or indexing methods are usually applied to English spelling or
+natural language problems.
+All results retrieved: 
+ID: 196
+Cosine Similarity Score: 0.052629444725773605
+PageRank Score: 1.0
+Combined Score: 0.3368406113080415
+ID: 1751
+Cosine Similarity Score: 0.008038183849365485
+PageRank Score: 0.597202424640702
+Combined Score: 0.18478745608676642
+ID: 2046
+Cosine Similarity Score: 0.07486213307621416
+PageRank Score: 0.4320828179000148
+Combined Score: 0.18202833852335434
+ID: 1749
+Cosine Similarity Score: 0.03143207749817796
+PageRank Score: 0.4712840339963992
+Combined Score: 0.16338766444764433
+ID: 1313
+Cosine Similarity Score: 0.16555803851648535
+PageRank Score: 0.13337491289675055
+Combined Score: 0.1559031008305649
+ID: 1
+Cosine Similarity Score: 0.04404777679967461
+PageRank Score: 0.40620265760251756
+Combined Score: 0.15269424104052748
+ID: 987
+Cosine Similarity Score: 0.08583751565501982
+PageRank Score: 0.30194296836638046
+Combined Score: 0.15066915146842802
+ID: 292
+Cosine Similarity Score: 0.1837032481393163
+PageRank Score: 0.06986495726133089
+Combined Score: 0.14955176087592068
+ID: 1471
+Cosine Similarity Score: 0.03123641542296817
+PageRank Score: 0.42201690972755607
+Combined Score: 0.14847056371434453
+ID: 28
+Cosine Similarity Score: 0.17062428279295308
+PageRank Score: 0.06986495726133073
+Combined Score: 0.14039648513346636
+ID: 1834
+Cosine Similarity Score: 0.026532222742945304
+PageRank Score: 0.4047569769666973
+Combined Score: 0.1399996490100709
+ID: 799
+Cosine Similarity Score: 0.05805426452599697
+PageRank Score: 0.33102565300859055
+Combined Score: 0.13994568107077504
+ID: 634
+Cosine Similarity Score: 0.1696019027159527
+PageRank Score: 0.0634042309086545
+Combined Score: 0.13774260117376325
+ID: 651
+Cosine Similarity Score: 0.16381946271019038
+PageRank Score: 0.06986495726132834
+Combined Score: 0.13563311107553175
+ID: 137
+Cosine Similarity Score: 0.1636200897560324
+PageRank Score: 0.06986495726133114
+Combined Score: 0.135493550007622
+Number of Expected CACM Matched Documents Retrieved: 0
+MAP: 0.0
+R-Precision: 0.0
+------------------------------------------
+Query #60: Hardware and software relating to database management systems.
+Database packages, back end computers, special associative hardware
+with microcomputers attached to disk heads or things like RAP,
+relational or network (CODASYL) or hierarchical models, systems
+like SYSTEM R, IMS, ADABAS, TOTAL, etc.
+All results retrieved: 
+ID: 1751
+Cosine Similarity Score: 0.037374336074973015
+PageRank Score: 0.597202424640702
+Combined Score: 0.2053227626446917
+ID: 1749
+Cosine Similarity Score: 0.07673780554187738
+PageRank Score: 0.4712840339963992
+Combined Score: 0.19510167407823392
+ID: 2046
+Cosine Similarity Score: 0.07582892033901656
+PageRank Score: 0.4320828179000148
+Combined Score: 0.18270508960731602
+ID: 1491
+Cosine Similarity Score: 0.0398720966515033
+PageRank Score: 0.36613172989737025
+Combined Score: 0.1377499866252634
+ID: 1471
+Cosine Similarity Score: 0.013528694302954454
+PageRank Score: 0.42201690972755607
+Combined Score: 0.13607515893033492
+ID: 2138
+Cosine Similarity Score: 0.08875297701923628
+PageRank Score: 0.2168625959411948
+Combined Score: 0.12718586269582383
+ID: 731
+Cosine Similarity Score: 0.014034427378406582
+PageRank Score: 0.3734319565679024
+Combined Score: 0.12185368613525532
+ID: 1626
+Cosine Similarity Score: 0.042284215132273435
+PageRank Score: 0.29422307963801375
+Combined Score: 0.11786587448399553
+ID: 987
+Cosine Similarity Score: 0.037087807116384056
+PageRank Score: 0.30194296836638046
+Combined Score: 0.11654435549138298
+ID: 1572
+Cosine Similarity Score: 0.09218753285753774
+PageRank Score: 0.16958621964546144
+Combined Score: 0.11540713889391485
+ID: 1366
+Cosine Similarity Score: 0.09866451373319605
+PageRank Score: 0.13721494152350638
+Combined Score: 0.11022964207028915
+ID: 1786
+Cosine Similarity Score: 0.023919969928244775
+PageRank Score: 0.3010111405555122
+Combined Score: 0.107047321116425
+ID: 616
+Cosine Similarity Score: 0.05977106065064585
+PageRank Score: 0.20090323491729212
+Combined Score: 0.10211071293063972
+ID: 1518
+Cosine Similarity Score: 0.08913202241031853
+PageRank Score: 0.12745410387022207
+Combined Score: 0.1006286468482896
+ID: 1754
+Cosine Similarity Score: 0.05887764813883099
+PageRank Score: 0.1973316866899888
+Combined Score: 0.10041385970417832
+Matching document with id#: 2046 found.
+Number of Expected CACM Matched Documents Retrieved: 1
+MAP: 0.1212152662152662
+R-Precision: 0.037037037037037035
+------------------------------------------
+Query #61: Information retrieval articles by Gerard Salton or others about clustering,
+bibliographic coupling, use of citations or co-citations, the vector
+space model, Boolean search methods using inverted files, feedback, etc.
+All results retrieved: 
+ID: 2070
+Cosine Similarity Score: 0.25681254398609826
+PageRank Score: 0.0698649572613342
+Combined Score: 0.20072826796866905
+ID: 1751
+Cosine Similarity Score: 0.027451966534677585
+PageRank Score: 0.597202424640702
+Combined Score: 0.1983771039664849
+ID: 239
+Cosine Similarity Score: 0.24196532512308286
+PageRank Score: 0.06986495726133114
+Combined Score: 0.19033521476455734
+ID: 2046
+Cosine Similarity Score: 0.05936231853864981
+PageRank Score: 0.4320828179000148
+Combined Score: 0.1711784683470593
+ID: 1749
+Cosine Similarity Score: 0.018306911004654657
+PageRank Score: 0.4712840339963992
+Combined Score: 0.154200047902178
+ID: 210
+Cosine Similarity Score: 0.024897582217292318
+PageRank Score: 0.45519946252160987
+Combined Score: 0.15398814630858756
+ID: 2114
+Cosine Similarity Score: 0.1505461513228746
+PageRank Score: 0.14957918472783305
+Combined Score: 0.15025606134436215
+ID: 1287
+Cosine Similarity Score: 0.1813420164721951
+PageRank Score: 0.06986495726133254
+Combined Score: 0.14789889870893633
+ID: 1834
+Cosine Similarity Score: 0.020411216706390116
+PageRank Score: 0.4047569769666973
+Combined Score: 0.13571494478448226
+ID: 634
+Cosine Similarity Score: 0.16498523539479445
+PageRank Score: 0.0634042309086545
+Combined Score: 0.13451093404895245
+ID: 2711
+Cosine Similarity Score: 0.16112392352160776
+PageRank Score: 0.06986495726132826
+Combined Score: 0.1337462336435239
+ID: 1935
+Cosine Similarity Score: 0.15196366784353413
+PageRank Score: 0.0877935481248039
+Combined Score: 0.13271263192791505
+ID: 651
+Cosine Similarity Score: 0.1593601969357345
+PageRank Score: 0.06986495726132834
+Combined Score: 0.13251162503341263
+ID: 1491
+Cosine Similarity Score: 0.030355562726268
+PageRank Score: 0.36613172989737025
+Combined Score: 0.13108841287759868
+ID: 1786
+Cosine Similarity Score: 0.055123418574521355
+PageRank Score: 0.3010111405555122
+Combined Score: 0.1288897351688186
+Matching document with id#: 239 found.
+Matching document with id#: 634 found.
+Matching document with id#: 2711 found.
+Number of Expected CACM Matched Documents Retrieved: 3
+MAP: 0.17978336478336482
+R-Precision: 0.0967741935483871
+------------------------------------------
+Query #62: Results relating parallel complexity theory (both for PRAM's and
+uniform circuits).
+All results retrieved: 
+ID: 1471
+Cosine Similarity Score: 0.04226568032607525
+PageRank Score: 0.42201690972755607
+Combined Score: 0.1561910491465195
+ID: 3007
+Cosine Similarity Score: 0.18281662138177326
+PageRank Score: 0.06986495726132397
+Combined Score: 0.14893112214563847
+ID: 392
+Cosine Similarity Score: 0.1805527090224248
+PageRank Score: 0.0698649572613304
+Combined Score: 0.14734638349409648
+ID: 1961
+Cosine Similarity Score: 0.18949148638871402
+PageRank Score: 0.048358615556107334
+Combined Score: 0.14715162513893199
+ID: 1834
+Cosine Similarity Score: 0.02857417463567076
+PageRank Score: 0.4047569769666973
+Combined Score: 0.14142901533497873
+ID: 2790
+Cosine Similarity Score: 0.16101508602639078
+PageRank Score: 0.06986495726132719
+Combined Score: 0.1336700473968717
+ID: 731
+Cosine Similarity Score: 0.030196932665108794
+PageRank Score: 0.3734319565679024
+Combined Score: 0.13316743983594687
+ID: 1648
+Cosine Similarity Score: 0.14219064913283352
+PageRank Score: 0.10494086676571611
+Combined Score: 0.1310157144226983
+ID: 2685
+Cosine Similarity Score: 0.1337769931578336
+PageRank Score: 0.11986215637857163
+Combined Score: 0.129602542124055
+ID: 141
+Cosine Similarity Score: 0.14970549952569856
+PageRank Score: 0.06986495726133114
+Combined Score: 0.12575333684638834
+ID: 1795
+Cosine Similarity Score: 0.14563809067263386
+PageRank Score: 0.0698649572613342
+Combined Score: 0.12290615064924396
+ID: 2932
+Cosine Similarity Score: 0.14072366790912968
+PageRank Score: 0.06986495726132397
+Combined Score: 0.11946605471478795
+ID: 2430
+Cosine Similarity Score: 0.15185844675892538
+PageRank Score: 0.03135360118453329
+Combined Score: 0.11570699308660774
+ID: 1368
+Cosine Similarity Score: 0.12985145588685115
+PageRank Score: 0.06986495726133313
+Combined Score: 0.11185550629919573
+ID: 2975
+Cosine Similarity Score: 0.14408263322123305
+PageRank Score: 0.03135360118452884
+Combined Score: 0.11026392361022179
+Number of Expected CACM Matched Documents Retrieved: 0
+MAP: 0.0
+R-Precision: 0.0
+------------------------------------------
+Query #63: Algorithms for parallel computation, and especially comparisons
+between parallel and sequential algorithms.
+All results retrieved: 
+ID: 1795
+Cosine Similarity Score: 0.29337948733108477
+PageRank Score: 0.0698649572613342
+Combined Score: 0.22632512831015958
+ID: 210
+Cosine Similarity Score: 0.10430521223856652
+PageRank Score: 0.45519946252160987
+Combined Score: 0.20957348732347952
+ID: 1749
+Cosine Similarity Score: 0.08141357201372854
+PageRank Score: 0.4712840339963992
+Combined Score: 0.19837471060852974
+ID: 3061
+Cosine Similarity Score: 0.2477337800968795
+PageRank Score: 0.03135360118452884
+Combined Score: 0.1828197264231743
+ID: 1471
+Cosine Similarity Score: 0.0796674477024516
+PageRank Score: 0.42201690972755607
+Combined Score: 0.18237228630998292
+ID: 392
+Cosine Similarity Score: 0.20843067793632816
+PageRank Score: 0.0698649572613304
+Combined Score: 0.16686096173382883
+ID: 270
+Cosine Similarity Score: 0.17568708134977076
+PageRank Score: 0.11747013413592108
+Combined Score: 0.15822199718561586
+ID: 2781
+Cosine Similarity Score: 0.20814426055695787
+PageRank Score: 0.031353601184531975
+Combined Score: 0.1551070627452301
+ID: 532
+Cosine Similarity Score: 0.11735275883575556
+PageRank Score: 0.23973057636464398
+Combined Score: 0.15406610409442206
+ID: 34
+Cosine Similarity Score: 0.1849492106463696
+PageRank Score: 0.06986495726133073
+Combined Score: 0.15042393463085793
+ID: 141
+Cosine Similarity Score: 0.17282055154909104
+PageRank Score: 0.06986495726133114
+Combined Score: 0.14193387326276305
+ID: 1303
+Cosine Similarity Score: 0.06923260136412168
+PageRank Score: 0.2795007609018751
+Combined Score: 0.1323130492254477
+ID: 1491
+Cosine Similarity Score: 0.02860567222208983
+PageRank Score: 0.36613172989737025
+Combined Score: 0.12986348952467394
+ID: 35
+Cosine Similarity Score: 0.13299728532299696
+PageRank Score: 0.09486355681995517
+Combined Score: 0.12155716677208442
+ID: 224
+Cosine Similarity Score: 0.06334699308901694
+PageRank Score: 0.2564158008434337
+Combined Score: 0.12126763541534195
+Matching document with id#: 1795 found.
+Number of Expected CACM Matched Documents Retrieved: 1
+MAP: 0.22121526621526624
+R-Precision: 0.08333333333333333
+------------------------------------------
+Query #64: List all articles on EL1 and ECL (EL1 may be given as EL/1; I don't
+remember how they did it.
+All results retrieved: 
+ID: 196
+Cosine Similarity Score: 0.033492325009663176
+PageRank Score: 1.0
+Combined Score: 0.3234446275067642
+ID: 1751
+Cosine Similarity Score: 0.02221825740302733
+PageRank Score: 0.597202424640702
+Combined Score: 0.19471350757432973
+ID: 210
+Cosine Similarity Score: 0.07605471868118274
+PageRank Score: 0.45519946252160987
+Combined Score: 0.18979814183331087
+ID: 731
+Cosine Similarity Score: 0.08088727263131618
+PageRank Score: 0.3734319565679024
+Combined Score: 0.16865067781229204
+ID: 1749
+Cosine Similarity Score: 0.03760243641085346
+PageRank Score: 0.4712840339963992
+Combined Score: 0.16770691568651716
+ID: 1834
+Cosine Similarity Score: 0.055418493503256824
+PageRank Score: 0.4047569769666973
+Combined Score: 0.16022003854228897
+ID: 2046
+Cosine Similarity Score: 0.04154471521383945
+PageRank Score: 0.4320828179000148
+Combined Score: 0.15870614601969205
+ID: 1491
+Cosine Similarity Score: 0.034863245154202714
+PageRank Score: 0.36613172989737025
+Combined Score: 0.13424379057715297
+ID: 799
+Cosine Similarity Score: 0.028054893122330796
+PageRank Score: 0.33102565300859055
+Combined Score: 0.11894612108820872
+ID: 106
+Cosine Similarity Score: 0.07105419128978764
+PageRank Score: 0.21995603641937791
+Combined Score: 0.11572474482866472
+ID: 677
+Cosine Similarity Score: 0.0766490038873571
+PageRank Score: 0.2050482219439179
+Combined Score: 0.11516876930432533
+ID: 367
+Cosine Similarity Score: 0.07634219742984644
+PageRank Score: 0.18946770886132466
+Combined Score: 0.1102798508592899
+ID: 987
+Cosine Similarity Score: 0.025945192278463
+PageRank Score: 0.30194296836638046
+Combined Score: 0.10874452510483823
+ID: 224
+Cosine Similarity Score: 0.04512098719235539
+PageRank Score: 0.2564158008434337
+Combined Score: 0.10850943128767887
+ID: 1786
+Cosine Similarity Score: 0.024084743107512588
+PageRank Score: 0.3010111405555122
+Combined Score: 0.10716266234191246
+Number of Expected CACM Matched Documents Retrieved: 0
+MAP: 0.0
+R-Precision: 0.0
+------------------------------------------
+Average R-Precision: 0.12331932397668921
+Average MAP: 0.08648091225014302
+Total Queries: 52
