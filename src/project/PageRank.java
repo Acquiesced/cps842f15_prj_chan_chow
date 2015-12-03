@@ -1,5 +1,8 @@
 package src.project;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -9,6 +12,7 @@ import java.util.TreeMap;
 
 public class PageRank {
 	final static double DAMPINGFACTOR = 0.85;
+	private static final String PAGERANKFILE = "pagerank.txt";
 	HashMap<Integer, DocumentRecord> documentRecordList;
 	TreeMap<Integer, DocumentRecord> sortedDocumentRecordList;
 	Set<CitationRecord> citationList = new HashSet<CitationRecord>();
@@ -27,11 +31,11 @@ public class PageRank {
 					.split("\n");
 			for (String citation : recordCitationArr) {
 				String[] citationStringArr = citation.split("\\s+");
-				Integer outLinkDocumentID = Integer
+				Integer inLinkDocumentID = Integer
 						.valueOf(citationStringArr[0]);
 				Integer documentID = Integer.valueOf(citationStringArr[2]);
-				// System.out.println(outLinkDocumentID + " " + documentID);
-				citationList.add(new CitationRecord(outLinkDocumentID,
+				// System.out.println(inLinkDocumentID + " " + documentID);
+				citationList.add(new CitationRecord(inLinkDocumentID,
 						documentID));
 			}
 		}
@@ -47,8 +51,7 @@ public class PageRank {
 		}
 
 		for (CitationRecord citRecord : citationList) {
-			aMatrix[citRecord.getDocumentID() - 1][citRecord
-					.getOutLinkDocumentID() - 1] = 1;
+			aMatrix[citRecord.getInLinkDocumentID() - 1][citRecord.getDocumentID() - 1] = 1;
 		}
 		return aMatrix;
 	}
@@ -93,12 +96,15 @@ public class PageRank {
 		
 		double[][] pageRank = pVector;
 		
-	/*	for (int i = 0; i < pageRank[0].length; i++) {
+		printPageRankToFile(pageRank);
+		
+		/*		for (int i = 0; i < pageRank[0].length; i++) {
 			System.out.print("pvec ");
 			System.out.print("DocID #" + (i + 1) + ": ");
 			System.out.printf("%.20f ", pageRank[0][i]);
 
 		}
+	
 		System.out.println("\n");
 		for (int i = 0; i < pMatrix[0].length; i++) {
 			System.out.print("pmat ");
@@ -106,6 +112,29 @@ public class PageRank {
 			System.out.printf("%.20f ", pMatrix[0][0]);
 		}  	*/
 		return pageRank;
+	}
+	
+	private void printPageRankToFile(double[][] pageRank) {
+		FileWriter writer = null;
+		File pageRankFile = new File(PAGERANKFILE);
+		try {
+			writer = new FileWriter(pageRankFile);
+			for (int i = 0; i < pageRank[0].length; i++) {
+				writer.write("DocID #" + (i + 1) + ": ");
+				writer.write(String.format("%.20f ", pageRank[0][i]));
+				writer.write("\n");
+			}
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			try {
+				writer.close();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
 	}
 
 	private double[][] multiplyMatrix(double[][] pVector, double[][] pMatrix) {
@@ -128,7 +157,7 @@ public class PageRank {
 
 	public void printCitation() {
 		for (CitationRecord citRecord : citationList) {
-			System.out.println(citRecord.getOutLinkDocumentID() + " "
+			System.out.println(citRecord.getInLinkDocumentID() + " "
 					+ citRecord.getDocumentID());
 		}
 	}

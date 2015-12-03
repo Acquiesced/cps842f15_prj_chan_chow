@@ -100,14 +100,6 @@ public class Eval {
 		documents = inverter.getDocuments();
 		dictionary = inverter.getDictionary();
 		postingsList = inverter.getPostingsList();
-		PageRank PageRanker = new PageRank(documents);
-		double[] pageRanks = PageRanker.citationListInit();
-		
-		//PageRanker.printCitation();
-		//Debug Purposes
-		Scanner debugWait = new Scanner(System.in);
-		debugWait.hasNext();
-		debugWait.close();
 		
 		// send w1 and w2
 		Search search = new Search(documents, dictionary, postingsList, useStemming, useStopWords, idfThreshold,
@@ -132,8 +124,14 @@ public class Eval {
 
 				System.out.println("Query #" + query.getId() + ": " + query.getQueryText());
 				writer.write("Query #" + query.getId() + ": " + query.getQueryText());
-				writer.write("\n");
+				
 				resultSet = search.getResultSubList(query.getQueryText());
+				
+				for (DocumentRecord d: resultSet) {
+					System.out.println(d.displayDocumentScoreInfo());
+					writer.write("\n");
+					writer.write(d.displayDocumentScoreInfo());
+				}
 
 				Set<Integer> relevantDocIDs = entry.getValue();
 				int relevantDocCount = 0;
@@ -170,7 +168,7 @@ public class Eval {
 				System.out.println("MAP: " + MAP);
 				System.out.println("R-Precision: " + RPrecision);
 				System.out.println("------------------------------------------");
-
+				writer.write("\n");
 				writer.write("Number of Documents Retrieved: " + relevantDocCount);
 				writer.write("\n");
 				writer.write("MAP: " + MAP);

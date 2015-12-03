@@ -2,20 +2,20 @@ package src.project;
 
 public class CitationRecord {
 	
-	Integer outLinkDocumentID;
+	Integer inLinkDocumentID;
 	Integer documentID;
 	
-	public CitationRecord(Integer outLinkDocumentID, Integer documentID){
+	public CitationRecord(Integer inLinkDocumentID, Integer documentID){
 		this.documentID = documentID;
-		this.outLinkDocumentID = outLinkDocumentID;
+		this.inLinkDocumentID = inLinkDocumentID;
 	}
 	
-	public Integer getOutLinkDocumentID() {
-		return outLinkDocumentID;
+	public Integer getInLinkDocumentID() {
+		return inLinkDocumentID;
 	}
 
-	public void setOutLinkDocumentID(Integer outLinkDocumentID) {
-		this.outLinkDocumentID = outLinkDocumentID;
+	public void setInLinkDocumentID(Integer outLinkDocumentID) {
+		this.inLinkDocumentID = outLinkDocumentID;
 	}
 
 	public Integer getDocumentID() {
@@ -25,7 +25,4 @@ public class CitationRecord {
 	public void setDocumentID(Integer documentID) {
 		this.documentID = documentID;
 	}
-
-
-
 }

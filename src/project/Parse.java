@@ -32,13 +32,12 @@ public class Parse {
 	}
 
 	public boolean citationValidation(String inputLine) {
-		String[] citationInputArr = inputLine.split("\\s+");
+		String[] citationInputArr = inputLine.trim().split("\\s+");
 		if ((citationInputArr.length == 3) && (citationInputArr[1].equals("5"))) {
-			return true;
+			return (Integer.valueOf(citationInputArr[0]) >= Integer.valueOf(citationInputArr[2]));
 		} else {
 			return false;
 		}
-
 	}
 
 	public void parseFile(HashMap<Integer, DocumentRecord> documents) {

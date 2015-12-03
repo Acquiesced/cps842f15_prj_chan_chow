@@ -125,6 +125,15 @@ public class DocumentRecord implements Serializable, Comparable<DocumentRecord> 
 		return resultString.toString().trim();
 	}
 
+	public String displayDocumentScoreInfo() {
+		StringBuilder resultString = new StringBuilder();
+		resultString.append("ID: " + id + "\n"  
+				+ "Cosine Similarity Score: " + cosineSimilarity + "\n"
+				+ "PageRank Score: " + pageRank + "\n"
+				+ "Combined Score: " + combinedScore + "\n");
+		return resultString.toString().trim();
+	}
+	
 	@Override
 	public String toString() {
 		return (!abstr.equals("")) ? title + " " + abstr : title;
