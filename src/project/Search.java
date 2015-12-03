@@ -25,10 +25,11 @@ public class Search {
 	private boolean useStopWords;
 	private double idfThreshold;
 	private int maxResults;
+	private double w1, w2;
 
 	public Search(HashMap<Integer, DocumentRecord> documents, TreeMap<String, DictionaryRecord> dictionary,
 			TreeMap<String, TreeMap<Integer, Posting>> postingsList, boolean useStemming, boolean useStopWords,
-			double idfThreshold, int maxResults) {
+			double idfThreshold, int maxResults, double w1, double w2) {
 		this.documents = documents;
 		this.dictionary = dictionary;
 		this.postingsList = postingsList;
@@ -36,6 +37,9 @@ public class Search {
 		this.useStopWords = useStopWords;
 		this.idfThreshold = idfThreshold;
 		this.maxResults = maxResults;
+		this.w1 = w1;
+		this.w2 = w2;
+		
 		if (useStopWords) {
 			try {
 				stopWordsList = Files.readAllLines(new File(STOPWORDSFILE).toPath(), StandardCharsets.UTF_8);
@@ -46,15 +50,14 @@ public class Search {
 		}
 	}
 
-	public List<DocumentRecord> getResultList(String query) {
+	public List<DocumentRecord> getResultList(String queryString) {
 		if (this.useStemming) {
 			Stemmer s = new Stemmer();
-			query = s.stem(query.trim());
+			queryString = s.stem(queryString.trim());
 		}
-
-		Query q = new Query(query.toLowerCase());
-		q.calculateQueryWeights(dictionary, useStopWords, idfThreshold);
-		return getCosineSimilarity(q);
+		Query query = new Query(queryString.toLowerCase());
+		query.calculateQueryWeights(dictionary, useStopWords, idfThreshold);
+		return combinedScore(query);
 	}
 
 	public void displayResults(String query) {
@@ -67,7 +70,7 @@ public class Search {
 				resultNumber++;
 			}
 		}
-		
+
 		if (results.isEmpty()) {
 			System.out.println("No results found for query!");
 		}
@@ -77,16 +80,11 @@ public class Search {
 		List<DocumentRecord> results = getResultList(query);
 		List<DocumentRecord> subList = new ArrayList<DocumentRecord>();
 		subList = results.subList(0, (maxResults - 1) > results.size() ? results.size() : maxResults);
-		/*
-		 * for (DocumentRecord d : results) { subList.add(d); if (subList.size()
-		 * >= maxResults) break; }
-		 */
 		return subList;
 	}
 
-	// document at a time evaluation
-	public List<DocumentRecord> getCosineSimilarity(Query query) {
-		double sim = 0.0;
+	private List<DocumentRecord> combinedScore(Query query) {
+		double cosineSimilarity = 0.0;
 		double numerator = 0.0;
 		double normalizedLength = 0.0;
 		double weight = 1.0;
@@ -96,6 +94,7 @@ public class Search {
 		List<DocumentRecord> results = new ArrayList<DocumentRecord>();
 		Set<Integer> relevantPostingIds = new HashSet<Integer>();
 
+		// using document at a time evaluation
 		// get a list of relevant posting ids for each term
 		for (String term : query.weights.keySet()) {
 			if (postingsList.containsKey(term)) {
@@ -107,13 +106,14 @@ public class Search {
 
 		// look at the documents for each relevant posting
 		for (Integer id : relevantPostingIds) {
-			DocumentRecord d = documents.get(id);
-			if (results.contains(d))
+			DocumentRecord document = documents.get(id);
+
+			// if the document has already been added to the results, skip it
+			if (results.contains(document))
 				continue;
 
 			// go through the unique terms in each document
-			for (String term : d.getUniqueTerms()) {
-
+			for (String term : document.getUniqueTerms()) {
 				if (useStemming) {
 					Stemmer s = new Stemmer();
 					term = s.stem(term);
@@ -124,12 +124,12 @@ public class Search {
 				}
 
 				// if the term is in the dictionary, compute its weight and
-				// similarity
+				// cosine similarity
 				if (dictionary.containsKey(term)) {
 					dictRec = dictionary.get(term);
 					double docFreq = dictRec.getDocumentFrequency();
 					double idf = Math.log10(collectionSize / docFreq);
-					int freq = postingsList.get(term).get(d.getId()).getTermFrequency(term);
+					int freq = postingsList.get(term).get(document.getId()).getTermFrequency(term);
 
 					double termFreq = 1 + Math.log10(freq);
 					weight = termFreq * idf;
@@ -137,13 +137,19 @@ public class Search {
 					normalizedLength += weight * weight;
 				}
 			}
-			sim = numerator / (Math.sqrt(normalizedLength) * query.getNormalizedLength());
-			d.setSimilarity(sim);
+			cosineSimilarity = numerator / (Math.sqrt(normalizedLength) * query.getNormalizedLength());
+			document.setCosineSimilarity(cosineSimilarity);
+
+			// score(d, q) = w1*cos-score(d, q) + w2*pagerank(d) where w1+w2=1.
+			double combinedScore = w1 * document.getCosineSimilarity() + w2 * document.getPageRank();
+			document.setCombinedScore(combinedScore);
 
 			numerator = 0;
 			normalizedLength = 0.0;
-			results.add(d);
+			results.add(document);
 		}
+
+		// sort results in descending order of combined score
 		Collections.sort(results);
 		return results;
 	}
@@ -168,11 +174,9 @@ public class Search {
 			for (Posting p : postingsList.get(query).values()) {
 				int id = p.getId();
 				DocumentRecord d = documents.get(id);
-				resultString.append("DOCUMENT ID: " + id + "\n"
-						+ "TITLE: " + d.getTitle() + "\n" + "TERM FREQUENCY: " + p.getTermFrequency(query) + "\n"
-						+ "POSITIONS: " + p.printPositions() + "\n" 
-						+ "SUMMARY: " + getContext(d.getTitle(), d.getAbstract(), query, p.getTermFirstOccurrence())
-						+ "\n"
+				resultString.append("DOCUMENT ID: " + id + "\n" + "TITLE: " + d.getTitle() + "\n" + "TERM FREQUENCY: "
+						+ p.getTermFrequency(query) + "\n" + "POSITIONS: " + p.printPositions() + "\n" + "SUMMARY: "
+						+ getContext(d.getTitle(), d.getAbstract(), query, p.getTermFirstOccurrence()) + "\n"
 						+ "---------------------------------------------------------------------------\n");
 			}
 			return resultString.toString().trim();
@@ -199,8 +203,7 @@ public class Search {
 		int end = position + 5;
 		if (start < 0 && end < length) {
 			end = end + Math.abs(start);
-		}
-		else if (end > length && start > 0) {
+		} else if (end > length && start > 0) {
 			start = start - (end - length);
 		}
 		start = start > 0 ? start : 0;

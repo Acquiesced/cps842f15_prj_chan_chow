@@ -14,7 +14,7 @@ import org.apache.commons.cli.ParseException;
 
 public class Test {
 	private static ArrayList<Double> timeList = new ArrayList<Double>();
-	private static final String file = "cacm/cacm.all";
+	private static final String COLLECTIONSFILE = "cacm/cacm.all";
 	//private static final String file = "cacm/cacm.small2";
 
 	static HashMap<Integer, DocumentRecord> documents = new HashMap<Integer, DocumentRecord>();
@@ -31,15 +31,18 @@ public class Test {
 		return total / timeList.size();
 	}
 
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		boolean useStemming = false;
 		boolean useStopWords = false;
 		long startTime = System.nanoTime();
 		System.out.println("Welcome!");
 
-		Invert inverter = new Invert(file);
+		Invert inverter = new Invert(COLLECTIONSFILE);
 		double idfThreshold = 1.0;
 		int maxResults = 15;
+		double w1 = 0.5;
+		double w2 = 0.5;
 
 		Options options = new Options();
 		options.addOption("stem", false, "Enable stemming");
@@ -48,19 +51,18 @@ public class Test {
 		OptionBuilder.withLongOpt("idf");
 		OptionBuilder.withDescription("Idf threshold");
 		OptionBuilder.withType(Number.class);
-		OptionBuilder
-				.hasArg();
+		OptionBuilder.hasArg();
 		OptionBuilder.withArgName("argname");
 		options.addOption(OptionBuilder.create());
 		OptionBuilder.withLongOpt("maxresults");
 		OptionBuilder.withDescription("Maximum number of entries to retrieve");
-		OptionBuilder
-				.withType(Number.class);
+		OptionBuilder.withType(Number.class);
 		OptionBuilder.hasArg();
 		OptionBuilder.withArgName("argname");
-		options.addOption(
-				OptionBuilder.create());
+		options.addOption(OptionBuilder.create());
 		options.addOption("help", "Show this menu");
+		OptionBuilder.withLongOpt("w1");
+		OptionBuilder.withLongOpt("w2");
 
 		CommandLineParser parser = new DefaultParser();
 		try {
@@ -81,6 +83,12 @@ public class Test {
 			}
 			if (cmd.hasOption("maxresults")) {
 				maxResults = ((Number) cmd.getParsedOptionValue("maxresults")).intValue();
+			}
+			if (cmd.hasOption("w1")) {
+				w1 = ((Number) cmd.getParsedOptionValue("w1")).doubleValue();
+			}
+			if (cmd.hasOption("w2")) {
+				w2 = ((Number) cmd.getParsedOptionValue("w2")).doubleValue();
 			}
 			if (cmd.hasOption("help")) {
 				HelpFormatter formatter = new HelpFormatter();
@@ -104,8 +112,7 @@ public class Test {
 		System.out.println("Index creation finished. Time: " + seconds + "s");
 
 		//TODO: Change the main program to use Search instead of Test.
-		Search search = new Search(documents, dictionary, postingsList, useStemming, useStopWords, idfThreshold,
-				maxResults);
+		Search search = new Search(documents, dictionary, postingsList, useStemming, useStopWords, idfThreshold, maxResults, w1, w2);
 		System.out.println("===========================================================================");
 		System.out.println("Enter search term: ");
 

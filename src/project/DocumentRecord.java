@@ -15,7 +15,9 @@ public class DocumentRecord implements Serializable, Comparable<DocumentRecord> 
 	private String authorList = "";
 	private String citationList = "";
 	private double normalizedLength;
-	private double similarity;
+	private double cosineSimilarity;
+	private double pageRank;
+	private double combinedScore;
 
 	public DocumentRecord(int id) {
 		this.id = id;
@@ -77,17 +79,33 @@ public class DocumentRecord implements Serializable, Comparable<DocumentRecord> 
 		this.normalizedLength = normalizedLength;
 	}
 
-	public double getSimilarity() {
-		return similarity;
+	public double getCosineSimilarity() {
+		return cosineSimilarity;
 	}
 
-	public void setSimilarity(double similarity) {
-		this.similarity = similarity;
+	public void setCosineSimilarity(double similarity) {
+		this.cosineSimilarity = similarity;
+	}
+
+	public double getPageRank() {
+		return pageRank;
+	}
+
+	public void setPageRank(double pageRank) {
+		this.pageRank = pageRank;
+	}
+
+	public double getCombinedScore() {
+		return combinedScore;
+	}
+
+	public void setCombinedScore(double combinedScore) {
+		this.combinedScore = combinedScore;
 	}
 
 	public String toStringDebug() {
 		return "DocumentRecord [id=" + id + ", title=" + title + ", abstr=" + abstr + ", date=" + date + ", authorList="
-				+ authorList + ", citationList=" + citationList +", similarity=" + similarity + "]";
+				+ authorList + ", citationList=" + citationList +", similarity=" + cosineSimilarity + "]";
 	}
 
 	public Set<String> getUniqueTerms() {
@@ -100,7 +118,10 @@ public class DocumentRecord implements Serializable, Comparable<DocumentRecord> 
 	public String displayDocumentInfo() {
 		StringBuilder resultString = new StringBuilder();
 		resultString.append("ID: " + id + "\n" + "Title: " + title + "\n" + "Authors: " + authorList + "\n"
-				+ "Citations:" + citationList + "\n" + "Relevance Score: " + similarity + "\n");
+				+ "Citations:" + citationList + "\n" 
+				+ "Cosine Similarity Score: " + cosineSimilarity + "\n"
+				+ "PageRank Score: " + pageRank + "\n"
+				+ "Combined Score: " + combinedScore + "\n");
 		return resultString.toString().trim();
 	}
 
@@ -111,9 +132,13 @@ public class DocumentRecord implements Serializable, Comparable<DocumentRecord> 
 
 	@Override
 	public int compareTo(DocumentRecord other) {
-		if (this.similarity < other.similarity)
+		/*if (this.cosineSimilarity < other.cosineSimilarity)
 			return 1;
-		if (this.similarity > other.similarity)
+		if (this.cosineSimilarity > other.cosineSimilarity)
+			return -1; */
+		if (this.combinedScore < other.combinedScore)
+			return 1;
+		if (this.combinedScore > other.combinedScore)
 			return -1;
 		return 0;
 	}

@@ -20,7 +20,7 @@ import org.apache.commons.cli.ParseException;
 
 public class Eval {
 
-	private static final String COLLECTIONSFILE = "cacm/cacm.small";
+	private static final String COLLECTIONSFILE = "cacm/cacm.all";
 	private static final String QUERYFILE = "cacm/query.text";
 	private static final String QUERYJUDGMENTFILE = "cacm/qrels.text";
 	private static final String EVALFILE = "eval.txt";
@@ -39,6 +39,8 @@ public class Eval {
 		Options options = new Options();
 		double idfThreshold = 1.0;
 		int maxResults = 15;
+		double w1 = 0.5;
+		double w2 = 0.5;
 		boolean useStemming = false;
 		boolean useStopWords = false;
 		options.addOption("stem", false, "Enable stemming");
@@ -78,6 +80,12 @@ public class Eval {
 			if (cmd.hasOption("maxresults")) {
 				maxResults = ((Number) cmd.getParsedOptionValue("maxresults")).intValue();
 			}
+			if (cmd.hasOption("w1")) {
+				w1 = ((Number) cmd.getParsedOptionValue("w1")).doubleValue();
+			}
+			if (cmd.hasOption("w2")) {
+				w2 = ((Number) cmd.getParsedOptionValue("w2")).doubleValue();
+			}
 		} catch (ParseException e) {
 			e.printStackTrace();
 		}
@@ -93,16 +101,17 @@ public class Eval {
 		dictionary = inverter.getDictionary();
 		postingsList = inverter.getPostingsList();
 		PageRank PageRanker = new PageRank(documents);
-		PageRanker.citationListInit();
+		double[] pageRanks = PageRanker.citationListInit();
+		
 		//PageRanker.printCitation();
 		//Debug Purposes
 		Scanner debugWait = new Scanner(System.in);
 		debugWait.hasNext();
 		debugWait.close();
 		
-		
+		// send w1 and w2
 		Search search = new Search(documents, dictionary, postingsList, useStemming, useStopWords, idfThreshold,
-				maxResults);
+				maxResults, w1, w2);
 
 		File eval = new File(EVALFILE);
 		FileWriter writer = null;

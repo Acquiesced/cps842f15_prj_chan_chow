@@ -1,6 +1,5 @@
 package src.project;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -12,7 +11,6 @@ public class PageRank {
 	final static double DAMPINGFACTOR = 0.85;
 	HashMap<Integer, DocumentRecord> documentRecordList;
 	TreeMap<Integer, DocumentRecord> sortedDocumentRecordList;
-	// ArrayList<CitationRecord> citationList = new ArrayList<CitationRecord>();
 	Set<CitationRecord> citationList = new HashSet<CitationRecord>();
 
 	public PageRank(HashMap<Integer, DocumentRecord> documentRecordList) {
@@ -21,7 +19,7 @@ public class PageRank {
 				documentRecordList);
 	}
 
-	public void citationListInit() {
+	public double[] citationListInit() {
 		for (Entry<Integer, DocumentRecord> docEntry : documentRecordList
 				.entrySet()) {
 			// System.out.println(docEntry.getValue().getCitationList());
@@ -38,7 +36,7 @@ public class PageRank {
 			}
 		}
 		double[][] pMatrix = probabilityMatrixInit(adjacencyMatrixInit(citationList));
-		randomSurfer(pMatrix);
+		return randomSurfer(pMatrix)[0];
 	}
 
 	private double[][] adjacencyMatrixInit(Set<CitationRecord> citationList) {
@@ -57,7 +55,6 @@ public class PageRank {
 
 	private double[][] probabilityMatrixInit(double[][] aMatrix) {
 		int rowLinkCount = 0;
-		int rowCount = 0;
 		int matrixSize = sortedDocumentRecordList.lastKey();
 
 		for (double[] aMatrixRow : aMatrix) {
@@ -78,7 +75,6 @@ public class PageRank {
 					aMatrixRow[i] = 1 / matrixSize;
 				}
 			}
-			rowCount++;
 			rowLinkCount = 0;
 		}
 
@@ -90,12 +86,14 @@ public class PageRank {
 		double[][] pVector = new double[1][matrixSize];
 		Arrays.fill(pVector[0], 0);
 		pVector[0][0] = 1.0;
-		int surferIterationValue = 1;
+		int surferIterationValue = 10;
 		for (int i = 0; i < surferIterationValue; i++) {
 			pVector = multiplyMatrix(pVector, pMatrix);
 		}
+		
 		double[][] pageRank = pVector;
-		for (int i = 0; i < pageRank[0].length; i++) {
+		
+	/*	for (int i = 0; i < pageRank[0].length; i++) {
 			System.out.print("pvec ");
 			System.out.print("DocID #" + (i + 1) + ": ");
 			System.out.printf("%.20f ", pageRank[0][i]);
@@ -106,9 +104,7 @@ public class PageRank {
 			System.out.print("pmat ");
 			System.out.print("DocID #" + (i + 1) + ": ");
 			System.out.printf("%.20f ", pMatrix[0][0]);
-		}
-		
-		
+		}  	*/
 		return pageRank;
 	}
 
@@ -128,7 +124,6 @@ public class PageRank {
 			}
 		}
 		return result;
-
 	}
 
 	public void printCitation() {

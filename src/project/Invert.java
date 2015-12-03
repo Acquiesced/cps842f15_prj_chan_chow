@@ -259,6 +259,14 @@ public class Invert {
 		for (DocumentRecord d : documents.values()) {
 			buildIndex(d.getId(), d.toString());
 		}
+		
+		// Set the PageRank for each document
+		PageRank PageRanker = new PageRank(documents);
+		double[] pageRanks = PageRanker.citationListInit();
+		for (int i = 0; i < pageRanks.length-1; i++) {
+			documents.get(i+1).setPageRank(pageRanks[i+1]);
+			System.out.println("Id: " + documents.get(i+1).getId() + ", PageRank: " + documents.get(i+1).getPageRank());
+		}
 
 		getDictionarySize();
 
