@@ -1,4 +1,4 @@
-# cps842f15_prj_chan_chow
+# Search Engine Retrieval Program
 Info Retrieval Project
 
 <<<<<<< HEAD
