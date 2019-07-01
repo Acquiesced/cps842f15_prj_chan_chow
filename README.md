@@ -1,7 +1,6 @@
 # Search Engine Retrieval Program
 Info Retrieval Project
 
-<<<<<<< HEAD
 Project (Due: Dec. 3, 2015)
 =======
 Test (for Search)
@@ -36,4 +35,3 @@ For queries:
 
 * term frequency = frequency
 * weighting = 1 + log(f)
->>>>>>> refs/remotes/origin/a2
